@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import PrivacyArchitecture from './pages/PrivacyArchitecture';
 import LegalPrivacy from './pages/LegalPrivacy';
 import TermsOfService from './pages/TermsOfService';
+import Applications from './pages/Applications';
 import './styles/global.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/privacy-architecture" element={<PrivacyArchitecture />} />
                     <Route path="/legal-privacy" element={<LegalPrivacy />} />
                     <Route path="/terms-of-service" element={<TermsOfService />} />
+                    <Route path="/applications" element={<Applications />} />
                 </Routes>
             </div>
         </Router>

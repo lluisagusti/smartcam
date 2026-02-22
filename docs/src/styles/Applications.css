@@ -1,0 +1,209 @@
+.applications-page {
+    padding-top: 80px;
+    background: var(--color-bg);
+}
+
+/* Hero */
+.applications-hero {
+    text-align: center;
+    padding: var(--spacing-xl) var(--spacing-lg);
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: #fff;
+}
+
+.applications-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.02em;
+}
+
+.applications-hero p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.85;
+    line-height: 1.7;
+}
+
+/* Application Block — alternating rows */
+.app-block {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-xl) var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app-block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.app-block-image {
+    flex: 1;
+    min-width: 0;
+}
+
+.app-block-image img {
+    width: 100%;
+    max-width: 560px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    display: block;
+    margin: 0 auto;
+}
+
+.app-block-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.app-block-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 100px;
+    margin-bottom: var(--spacing-md);
+    color: #fff;
+}
+
+/* Badge colors per app */
+.app-block:nth-child(6n+1) .app-block-badge {
+    background: #0284c7;
+}
+
+.app-block:nth-child(6n+2) .app-block-badge {
+    background: #dc2626;
+}
+
+.app-block:nth-child(6n+3) .app-block-badge {
+    background: #7c3aed;
+}
+
+.app-block:nth-child(6n+4) .app-block-badge {
+    background: #059669;
+}
+
+.app-block:nth-child(6n+5) .app-block-badge {
+    background: #d97706;
+}
+
+.app-block:nth-child(6n+6) .app-block-badge {
+    background: #be185d;
+}
+
+.app-block-content h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 800;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.app-block-content p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Icon bubbles */
+.app-icons-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: var(--spacing-md);
+}
+
+.app-icon-bubble {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    transition: all 0.25s ease;
+    cursor: default;
+}
+
+.app-icon-bubble:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.15);
+}
+
+/* Divider between sections */
+.app-divider {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+.app-divider hr {
+    border: none;
+    height: 1px;
+    background: var(--color-border);
+}
+
+/* CTA section at bottom */
+.applications-cta {
+    text-align: center;
+    padding: var(--spacing-xl) var(--spacing-lg);
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+}
+
+.applications-cta h2 {
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 800;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.applications-cta p {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 14px 36px;
+    background: var(--color-accent);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background: var(--color-accent-hover);
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .app-block {
+        flex-direction: column !important;
+        padding: var(--spacing-lg) var(--spacing-md);
+        gap: var(--spacing-lg);
+    }
+
+    .applications-hero {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+}

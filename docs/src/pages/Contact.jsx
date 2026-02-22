@@ -79,12 +79,12 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail} className="contact-form">
                             <div className="form-group">
                                 <label>{t('contact.name')}</label>
-                                <input type="text" name="user_name" required placeholder={t('contact.name_ph')} />
+                                <input type="text" name="user_name" required />
                             </div>
 
                             <div className="form-group">
                                 <label>{t('contact.email')}</label>
-                                <input type="email" name="user_email" required placeholder={t('contact.email_ph')} />
+                                <input type="email" name="user_email" required />
                             </div>
 
                             <div className="form-group">
@@ -103,7 +103,7 @@ const Contact = () => {
 
                             <div className="form-group">
                                 <label>{t('contact.org')}</label>
-                                <input type="text" name="organization" required placeholder={t('contact.org_ph')} />
+                                <input type="text" name="organization" required />
                             </div>
 
                             <div className="form-group">
