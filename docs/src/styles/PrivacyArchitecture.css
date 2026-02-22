@@ -1,0 +1,251 @@
+/* ==========================================
+   Privacy Policy Page — Home-inspired layout
+   ========================================== */
+
+/* Hero Section */
+.pp-hero {
+    padding-top: 100px;
+    padding-bottom: var(--spacing-xl);
+    background-color: var(--color-surface);
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.pp-hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.pp-hero-badge {
+    display: inline-block;
+    background-color: rgba(2, 132, 199, 0.1);
+    color: var(--color-accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 1rem;
+    border-radius: 999px;
+    margin-bottom: var(--spacing-md);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.pp-hero h1 {
+    font-size: 3rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.03em;
+}
+
+.pp-hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-md);
+}
+
+.pp-hero-updated {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* Shared Section Styles */
+.pp-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.pp-section-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+}
+
+.pp-section-header h2 {
+    font-size: 2.5rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.pp-section-header p {
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* Flow Section — "How It Works" */
+.pp-flow-section {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background-color: var(--color-bg);
+}
+
+.pp-flow-grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.pp-flow-step {
+    flex: 1;
+    min-width: 180px;
+    max-width: 240px;
+    text-align: center;
+    padding: var(--spacing-md);
+}
+
+.pp-flow-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: var(--radius-lg);
+    background-color: var(--color-accent);
+    color: white;
+    margin-bottom: var(--spacing-md);
+    transition: transform 0.3s ease;
+}
+
+.pp-flow-step:hover .pp-flow-icon {
+    transform: scale(1.1);
+}
+
+.pp-flow-step h3 {
+    font-size: 1.1rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.pp-flow-step p {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+.pp-flow-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-accent);
+    opacity: 0.5;
+    padding-top: 1.5rem;
+}
+
+/* Cards Section — Policy Details */
+.pp-cards-section {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background-color: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+}
+
+.pp-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.pp-card {
+    background-color: var(--color-bg);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.pp-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-lg);
+    background-color: var(--color-accent);
+    color: white;
+    margin-bottom: var(--spacing-md);
+}
+
+.pp-card h3 {
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.3;
+}
+
+.pp-card p {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* CTA Section */
+.pp-cta-section {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background-color: var(--color-bg);
+    border-top: 1px solid var(--color-border);
+}
+
+.pp-cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pp-cta-content svg {
+    color: var(--color-accent);
+    margin-bottom: var(--spacing-md);
+}
+
+.pp-cta-content h2 {
+    font-size: 2rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.pp-cta-content p {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pp-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .pp-hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .pp-section-header h2 {
+        font-size: 2rem;
+    }
+
+    .pp-flow-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pp-flow-arrow {
+        transform: rotate(90deg);
+        padding-top: 0;
+    }
+
+    .pp-flow-step {
+        max-width: 100%;
+    }
+
+    .pp-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
