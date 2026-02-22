@@ -12,16 +12,16 @@ const slides = [
     {
         id: 2,
         image: './images/crowd-heat-map/grafana-dashboard.png',
-        title: 'Actionable Urban Analytics',
-        subtitle: 'Generate real-time crowd heatmaps and optimize public spaces seamlessly, protecting citizen identities 100% of the time.',
-        cta: 'See the Technology'
+        title: 'The Ethical Choice for AI',
+        subtitle: 'No facial recognition. No cloud data brokerage. Our open-source hardware deletes raw video instantly, processing only anonymous metadata to keep your city safe and compliant.',
+        cta: 'Read Our Privacy Pledge'
     },
     {
         id: 3,
-        image: './images/remote-monitoring-halow/wild-camp.png',
-        title: 'Remote Monitoring Everywhere',
-        subtitle: 'Leverage WiFi HaLow and Meshtastic to monitor off-grid parks and wilderness areas without cellular networks.',
-        cta: 'Learn More'
+        image: './images/object-detection/output.jpg', // Using people counting image as a general representation
+        title: 'Complete Urban Intelligence',
+        subtitle: 'Alleviate traffic jams, manage smart parking, and count foot traffic accurately. One camera architecture for endless municipal applications.',
+        cta: 'See All Features'
     }
 ];
 
