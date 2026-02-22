@@ -1,12 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X } from 'lucide-react';
 import '../styles/Navigation.css';
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const navRef = useRef(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (isOpen) {
+                setIsOpen(false);
+            }
+        };
+
+        const handleClickOutside = (event) => {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        if (isOpen) {
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isOpen]);
 
     return (
-        <nav className="navbar">
+        <nav className="navbar" ref={navRef}>
             <div className="nav-container">
                 <a href="/" className="nav-logo">
                     <strong>Smart</strong>Cam
