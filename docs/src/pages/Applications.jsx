@@ -23,7 +23,20 @@ const Applications = () => {
                 <html lang={i18n.language} />
                 <title>{t('seo.applications_title')}</title>
                 <meta name="description" content={t('seo.applications_desc')} />
-                <link rel="canonical" href="https://smartcam.eu/applications" />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://smartcamsolutions.io/applications" />
+                <meta property="og:title" content={t('seo.applications_title')} />
+                <meta property="og:description" content={t('seo.applications_desc')} />
+                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://smartcamsolutions.io/applications" />
+                <meta name="twitter:title" content={t('seo.applications_title')} />
+                <meta name="twitter:description" content={t('seo.applications_desc')} />
+                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
             </Helmet>
             <Navigation />
 

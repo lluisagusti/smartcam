@@ -26,12 +26,6 @@ const Home = () => {
     }, [location]);
     return (
         <>
-            <Helmet>
-                <html lang={i18n.language} />
-                <title>{t('seo.home_title')}</title>
-                <meta name="description" content={t('seo.home_desc')} />
-                <link rel="canonical" href="https://smartcam.eu/" />
-            </Helmet>
             <Navigation />
             <main>
                 <HeroSlideshow />

@@ -22,7 +22,6 @@ const Footer = () => {
                     <div className="footer-contact">
                         <h4>{t('footer.ready_title')}</h4>
                         <p>{t('footer.ready_desc')}</p>
-                        <a href="mailto:sales@smartcam.eu" className="btn-secondary">{t('footer.request_demo')}</a>
                     </div>
                 </div>
 

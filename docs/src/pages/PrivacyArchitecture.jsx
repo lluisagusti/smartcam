@@ -15,7 +15,20 @@ const PrivacyArchitecture = () => {
                 <html lang={i18n.language} />
                 <title>{t('seo.privacy_arch_title')}</title>
                 <meta name="description" content={t('seo.privacy_arch_desc')} />
-                <link rel="canonical" href="https://smartcam.eu/privacy-architecture" />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://smartcamsolutions.io/privacy-architecture" />
+                <meta property="og:title" content={t('seo.privacy_arch_title')} />
+                <meta property="og:description" content={t('seo.privacy_arch_desc')} />
+                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://smartcamsolutions.io/privacy-architecture" />
+                <meta name="twitter:title" content={t('seo.privacy_arch_title')} />
+                <meta name="twitter:description" content={t('seo.privacy_arch_desc')} />
+                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
             </Helmet>
             <Navigation />
 

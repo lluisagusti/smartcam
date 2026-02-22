@@ -73,7 +73,20 @@ const Contact = () => {
                 <html lang={i18n.language} />
                 <title>{t('seo.contact_title')}</title>
                 <meta name="description" content={t('seo.contact_desc')} />
-                <link rel="canonical" href="https://smartcam.eu/contact" />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://smartcamsolutions.io/contact" />
+                <meta property="og:title" content={t('seo.contact_title')} />
+                <meta property="og:description" content={t('seo.contact_desc')} />
+                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://smartcamsolutions.io/contact" />
+                <meta name="twitter:title" content={t('seo.contact_title')} />
+                <meta name="twitter:description" content={t('seo.contact_desc')} />
+                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
             </Helmet>
             <Navigation />
             <main className="contact-page">
