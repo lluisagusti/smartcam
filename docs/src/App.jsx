@@ -1,25 +1,20 @@
-import React from 'react'
-import Navigation from './components/Navigation'
-import HeroSlideshow from './components/HeroSlideshow'
-import FeatureCollapsible from './components/FeatureCollapsible'
-import ApplicationGrid from './components/ApplicationGrid'
-import PrivacyExplanation from './components/PrivacyExplanation'
-import Footer from './components/Footer'
-import './styles/global.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import './styles/global.css';
 
 function App() {
     return (
-        <div className="app-container">
-            <Navigation />
-            <main>
-                <HeroSlideshow />
-                <FeatureCollapsible />
-                <ApplicationGrid />
-                <PrivacyExplanation />
-            </main>
-            <Footer />
-        </div>
-    )
+        <Router>
+            <div className="app-container">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
-export default App
+export default App;

@@ -39,13 +39,13 @@ const Navigation = () => {
 
                 {/* Desktop Menu */}
                 <div className="nav-links">
-                    <a href="#applications">Applications</a>
-                    <a href="#compliance">Privacy & Compliance</a>
-                    <a href="#technology">Technology</a>
+                    <a href="/#applications">Applications</a>
+                    <a href="/#compliance">Privacy & Compliance</a>
+                    <a href="/#technology">Technology</a>
                 </div>
 
                 <div className="nav-actions">
-                    <a href="#contact" className="btn-primary">Contact Sales</a>
+                    <a href="/contact" className="btn-primary">Contact Sales</a>
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -60,10 +60,10 @@ const Navigation = () => {
 
             {/* Mobile Menu (Shoptimizer clean style) */}
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                <a href="#applications" onClick={() => setIsOpen(false)}>Applications</a>
-                <a href="#compliance" onClick={() => setIsOpen(false)}>Privacy</a>
-                <a href="#technology" onClick={() => setIsOpen(false)}>Technology</a>
-                <a href="#contact" className="mobile-btn" onClick={() => setIsOpen(false)}>Contact Sales</a>
+                <a href="/#applications" onClick={() => setIsOpen(false)}>Applications</a>
+                <a href="/#compliance" onClick={() => setIsOpen(false)}>Privacy</a>
+                <a href="/#technology" onClick={() => setIsOpen(false)}>Technology</a>
+                <a href="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>Contact Sales</a>
             </div>
         </nav>
     );

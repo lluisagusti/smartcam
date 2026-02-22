@@ -47,7 +47,7 @@ const HeroSlideshow = () => {
                         <div className="slide-content">
                             <h1>{slide.title}</h1>
                             <p>{slide.subtitle}</p>
-                            <a href="#applications" className="btn-primary hero-btn">{slide.cta}</a>
+                            <a href="/#applications" className="btn-primary hero-btn">{slide.cta}</a>
                         </div>
                     </div>
                 </div>
