@@ -13,7 +13,7 @@ i18n
             es: { translation: esTranslation },
             ca: { translation: caTranslation }
         },
-        lng: 'en', // Default language
+        lng: 'es', // Default language
         fallbackLng: 'en',
         interpolation: {
             escapeValue: false // React already escapes values

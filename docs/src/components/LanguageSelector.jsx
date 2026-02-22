@@ -4,9 +4,9 @@ import { Globe, ChevronDown } from 'lucide-react';
 import '../styles/LanguageSelector.css';
 
 const languages = [
-    { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
-    { code: 'ca', label: 'Català' }
+    { code: 'ca', label: 'Català' },
+    { code: 'en', label: 'English' }
 ];
 
 const LanguageSelector = () => {
