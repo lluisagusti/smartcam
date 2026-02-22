@@ -1,31 +1,34 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import '../styles/FeatureCollapsible.css';
 
-const privacyFeatures = [
+const getPrivacyFeatures = (t) => [
     {
-        title: '100% Edge AI Processing',
-        content: 'All video feeds are processed locally on the reCamera. No video streams are sent to the cloud, ensuring total citizen privacy.',
+        title: t('features.item1_title'),
+        content: t('features.item1_content'),
     },
     {
-        title: 'Strict EU Compliance',
-        content: 'Designed from the ground up to comply with GDPR and European privacy laws. We do not use facial recognition or track individuals.',
+        title: t('features.item2_title'),
+        content: t('features.item2_content'),
     },
     {
-        title: 'Open Source Synergy',
-        content: 'Integrates beautifully with platforms like Grafana and n8n, allowing councils to own their data and automate municipal workflows securely.',
+        title: t('features.item3_title'),
+        content: t('features.item3_content'),
     }
 ];
 
 const FeatureCollapsible = () => {
+    const { t } = useTranslation();
     const [openIndex, setOpenIndex] = useState(0);
+    const privacyFeatures = getPrivacyFeatures(t);
 
     return (
         <section className="collapsible-section" id="compliance">
             <div className="collapsible-container">
                 <div className="collapsible-header">
-                    <h2>Privacy First. Always.</h2>
-                    <p>The foundation of a smart city is trust. Our solutions guarantee anonymity while delivering critical operational insights.</p>
+                    <h2>{t('features.header_title')}</h2>
+                    <p>{t('features.header_subtitle')}</p>
                 </div>
 
                 <div className="collapsible-list">

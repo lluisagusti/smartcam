@@ -1,46 +1,50 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import '../styles/ApplicationGrid.css';
 
-const applications = [
+const getApplications = (t) => [
     {
-        title: 'Smart Parking Management',
-        description: 'Real-time slot monitoring using Edge AI. Reduce city congestion and commuter frustration by directing drivers instantly to open spots.',
+        title: t('applications.app1_title'),
+        description: t('applications.app1_desc'),
         image: './images/parking-slot-monitoring/diagram.png',
     },
     {
-        title: 'Traffic Jam Management',
-        description: 'Autonomously detect vehicle build-ups and average speeds to trigger active traffic flow controls and alleviate congestion before it escalates.',
+        title: t('applications.app2_title'),
+        description: t('applications.app2_desc'),
         image: './images/camera_features.webp',
     },
     {
-        title: 'Crowd Heatmaps & Analytics',
-        description: 'Integrates with Grafana to visualize high-traffic areas in real-time. Optimize public transport and urban planning while preserving anonymity.',
+        title: t('applications.app3_title'),
+        description: t('applications.app3_desc'),
         image: './images/crowd-heat-map/diagram.png',
     },
     {
-        title: 'People Counting',
-        description: 'Accurately monitor foot traffic in public squares, parks, and events to gauge utilization and deploy resources efficiently without facial recognition.',
+        title: t('applications.app4_title'),
+        description: t('applications.app4_desc'),
         image: './images/object-detection/person-small.gif',
     },
     {
-        title: 'Remote Environmental Monitoring',
-        description: 'Powered by WiFi HaLow & Meshtastic, monitor remote locations without expensive 4G/5G cellular networks. Save municipal budgets using low-cost, long-range antennas.',
+        title: t('applications.app5_title'),
+        description: t('applications.app5_desc'),
         image: './images/remote-monitoring-halow/diagram.png',
     },
     {
-        title: 'Illegal Waste Dumping Detection',
-        description: 'Use advanced Edge AI vision to instantly alert municipal cleaning services when unauthorized large items are abandoned in alleys or outskirts, deterring fly-tipping.',
+        title: t('applications.app6_title'),
+        description: t('applications.app6_desc'),
         image: './images/yolo-object-detection/dashboard2.png',
     }
 ];
 
 const ApplicationGrid = () => {
+    const { t } = useTranslation();
+    const applications = getApplications(t);
+
     return (
         <section className="applications-section" id="applications">
             <div className="container">
                 <div className="section-header">
-                    <h2>Transform Your City</h2>
-                    <p>Deploy highly effective, specialized AI applications designed for modern council needs.</p>
+                    <h2>{t('applications.header_title')}</h2>
+                    <p>{t('applications.header_subtitle')}</p>
                 </div>
 
                 <div className="app-grid">

@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
+import LanguageSelector from './LanguageSelector';
 import '../styles/Navigation.css';
 
 const Navigation = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     const navRef = useRef(null);
 
@@ -39,13 +42,14 @@ const Navigation = () => {
 
                 {/* Desktop Menu */}
                 <div className="nav-links">
-                    <a href="/#applications">Applications</a>
-                    <a href="/#compliance">Privacy & Compliance</a>
-                    <a href="/#technology">Technology</a>
+                    <a href="/#applications">{t('nav.applications')}</a>
+                    <a href="/#compliance">{t('nav.privacy')}</a>
+                    <a href="/#technology">{t('nav.technology')}</a>
                 </div>
 
                 <div className="nav-actions">
-                    <a href="/contact" className="btn-primary">Contact Sales</a>
+                    <LanguageSelector />
+                    <a href="/contact" className="btn-primary">{t('nav.contact')}</a>
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -60,10 +64,13 @@ const Navigation = () => {
 
             {/* Mobile Menu (Shoptimizer clean style) */}
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                <a href="/#applications" onClick={() => setIsOpen(false)}>Applications</a>
-                <a href="/#compliance" onClick={() => setIsOpen(false)}>Privacy</a>
-                <a href="/#technology" onClick={() => setIsOpen(false)}>Technology</a>
-                <a href="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>Contact Sales</a>
+                <div className="mobile-nav-top">
+                    <LanguageSelector />
+                </div>
+                <a href="/#applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</a>
+                <a href="/#compliance" onClick={() => setIsOpen(false)}>{t('nav.privacy')}</a>
+                <a href="/#technology" onClick={() => setIsOpen(false)}>{t('nav.technology')}</a>
+                <a href="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</a>
             </div>
         </nav>
     );

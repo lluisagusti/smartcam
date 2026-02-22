@@ -1,32 +1,36 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import '../styles/HeroSlideshow.css';
 
-const slides = [
+// We'll map the translations inside the component because we need the `t` function
+const getSlides = (t) => [
     {
         id: 1,
         image: './images/parking-slot-monitoring/ai-parking-banner.png',
-        title: 'Smart Cities, Built on Privacy',
-        subtitle: 'EU-compliant Edge AI cameras that process data locally, eliminating cloud privacy risks while delivering powerful real-time insights.',
-        cta: 'Explore Solutions'
+        title: t('hero.slide1_title'),
+        subtitle: t('hero.slide1_subtitle'),
+        cta: t('hero.slide1_cta')
     },
     {
         id: 2,
         image: './images/crowd-heat-map/grafana-dashboard.png',
-        title: 'The Ethical Choice for AI',
-        subtitle: 'No facial recognition. No cloud data brokerage. Our open-source hardware deletes raw video instantly, processing only anonymous metadata to keep your city safe and compliant.',
-        cta: 'Read Our Privacy Pledge'
+        title: t('hero.slide2_title'),
+        subtitle: t('hero.slide2_subtitle'),
+        cta: t('hero.slide2_cta')
     },
     {
         id: 3,
         image: './images/object-detection/output.jpg', // Using people counting image as a general representation
-        title: 'Complete Urban Intelligence',
-        subtitle: 'Alleviate traffic jams, manage smart parking, and count foot traffic accurately. One camera architecture for endless municipal applications.',
-        cta: 'See All Features'
+        title: t('hero.slide3_title'),
+        subtitle: t('hero.slide3_subtitle'),
+        cta: t('hero.slide3_cta')
     }
 ];
 
 const HeroSlideshow = () => {
+    const { t } = useTranslation();
     const [current, setCurrent] = useState(0);
+    const slides = getSlides(t);
 
     useEffect(() => {
         const timer = setInterval(() => {

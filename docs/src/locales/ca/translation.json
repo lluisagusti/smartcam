@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "title_strong": "Smart",
+        "title_span": "Cam Solutions",
+        "applications": "Aplicacions",
+        "privacy": "Privacitat i Compliment",
+        "technology": "Tecnologia",
+        "contact": "Contacte"
+    },
+    "hero": {
+        "slide1_title": "Ciutats Intel·ligents, Basades en la Privacitat",
+        "slide1_subtitle": "Càmeres Edge AI que processen dades localment complint amb la normativa europea, eliminant els riscos de privacitat al núvol i oferint informació potent en temps real.",
+        "slide1_cta": "Explorar Solucions",
+        "slide2_title": "L'Elecció Ètica per a la IA",
+        "slide2_subtitle": "Sense reconeixement facial. Sense comerç de dades al núvol. El nostre maquinari esborra el vídeo original a l'instant, processant només metadades anònimes per mantenir la teva ciutat segura i en compliment legal.",
+        "slide2_cta": "Llegir el Nostre Compromís",
+        "slide3_title": "Intel·ligència Urbana Completa",
+        "slide3_subtitle": "Alleuja embussos, gestiona l'aparcament intel·ligent i compta el trànsit de vianants amb precisió. Una única arquitectura de càmera per a infinites aplicacions municipals.",
+        "slide3_cta": "Veure Totes les Funcions"
+    },
+    "features": {
+        "header_title": "Privacitat Primer. Sempre.",
+        "header_subtitle": "La base d'una ciutat intel·ligent és la confiança. Les nostres solucions garanteixen l'anonimat mentre ofereixen coneixements operatius crítics.",
+        "item1_title": "Processament 100% Edge AI",
+        "item1_content": "Tots els fluxos de vídeo es processen localment a la reCamera. No s'envien seqüències de vídeo al núvol, garantint total privacitat al ciutadà.",
+        "item2_title": "Estricte Compliment Europeu",
+        "item2_content": "Dissenyat des de zero per complir amb el GDPR i les lleis de privacitat europees. No utilitzem reconeixement facial ni rastregem les persones.",
+        "item3_title": "Sinergia de Codi Obert",
+        "item3_content": "S'integra a la perfecció amb plataformes com Grafana i n8n, permetent als ajuntaments posseir les seves pròpies dades i automatitzar fluxos de treball municipals de forma segura."
+    },
+    "applications": {
+        "header_title": "Transforma la Teva Ciutat",
+        "header_subtitle": "Implementa solucions d'intel·ligència artificial especialitzades i altament efectives, dissenyades per a les necessitats modernes de l'ajuntament.",
+        "app1_title": "Gestió d'Aparcament",
+        "app1_desc": "Monitorització de places en temps real mitjançant Edge AI. Redueix la congestió urbana i la frustració de conductors dirigint els usuaris instantàniament als espais lliures.",
+        "app2_title": "Control de Trànsit i Embussos",
+        "app2_desc": "Detecta automàticament l'acumulació de vehicles i velocitats mitjanes per activar controls de flux i alleujar embussos abans que s'agreugin.",
+        "app3_title": "Mapes de Calor i Analítica de Masses",
+        "app3_desc": "S'integra amb Grafana per visualitzar àrees d'alt trànsit en temps real. Optimitza el transport públic i la planificació urbana conservant l'anonimat.",
+        "app4_title": "Recompte de Persones",
+        "app4_desc": "Monitoritza amb precisió el trànsit de vianants en places, parcs i esdeveniments per avaluar l'ús i desplegar recursos de forma eficient sense reconeixement facial.",
+        "app5_title": "Monitorització Ambiental Remota",
+        "app5_desc": "Impulsat per WiFi HaLow i Meshtastic, monitoritza àrees allunyades sense costoses xarxes mòbils 4G/5G. Estalvia pressupostos municipals usant antenes de llarg abast i baix cost.",
+        "app6_title": "Detecció d'Abocaments Il·legals",
+        "app6_desc": "Usa visió Edge AI avançada per alertar instantàniament els serveis de neteja municipal quan s'abandonen objectes grans sense autorització, dissuadint els abocaments il·legals."
+    },
+    "privacy_exp": {
+        "title": "Per Què Edge AI és l'Opció Ètica",
+        "subtitle": "Una guia no tècnica sobre com les nostres càmeres protegeixen la identitat ciutadana mentre mantenen la seva ciutat connectada.",
+        "card1_title": "El que passa a la càmera, es queda a la càmera",
+        "card1_desc": "Les càmeres de seguretat tradicionals transmeten vídeo en brut mostrant els rostres durant tot el dia. Les nostres càmeres Edge AI són diferents. Actuen com un ull i un cervell combinats. La càmera mira el carrer, compta els cotxes i després <strong>elimina el vídeo immediatament</strong>. Només envia una alerta de text anònima (com \"3 cotxes a la cruïlla\") al servidor. Mai s'enregistren o transmeten rostres.",
+        "card2_title": "Immune a Filtratges de Dades al Núvol",
+        "card2_desc": "Tots hem vist notícies de grans empreses patint ciberatacs, exposant informació privada. Com que les nostres càmeres processen tot localment al dispositiu (a l'\"Edge\") i mai envien vídeo en brut a un servidor central, no existeix una gran base de dades valuosa per als hackers. No pots filtrar allò que no emmagatzemes.",
+        "card3_title": "Zero Comercialització de Dades",
+        "card3_desc": "Les grans corporacions tecnològiques tenen un llarg historial de recopilació de dades per vendre a tercers. La nostra solució es basa en maquinari de codi obert. L'ajuntament posseeix el maquinari i les dades anònimes. No hi ha perfils publicitaris secrets i existeix absolut compliment de la legislació europea GDPR."
+    },
+    "footer": {
+        "desc": "Proporcionant solucions Edge AI d'avantguarda que prioritzen la privacitat per a ciutats europees.",
+        "solutions": "Solucions",
+        "sol_parking": "Aparcamiento",
+        "sol_analytics": "Analítica de Masses",
+        "sol_monitoring": "Control Remot",
+        "company": "Empresa",
+        "comp_compliance": "Normativa EU",
+        "comp_tech": "Tecnologia i IA",
+        "comp_contact": "Contactar Vendes",
+        "ready_title": "Llest per a Actualitzar?",
+        "ready_desc": "Desplega el nostre maquinari de codi obert al teu municipi.",
+        "request_demo": "Demanar una Demo",
+        "rights": "SmartCam Solutions. Tots els drets reservats.",
+        "privacy_policy": "Política de Privacitat",
+        "terms": "Termes de Servei",
+        "gdpr": "Declaració GDPR"
+    },
+    "contact": {
+        "title": "Posa't en Contacte",
+        "subtitle": "Llest per implementar Edge AI ètic al teu municipi? Contacta avui amb el nostre equip d'enginyers de vendes.",
+        "name": "Nom",
+        "name_ph": "Joan Pérez",
+        "email": "Correu Electrònic",
+        "email_ph": "joan@ajuntament.org",
+        "org": "Organització / Municipi",
+        "org_ph": "Ajuntament de...",
+        "details": "Detalls del Projecte",
+        "details_ph": "Explica'ns sobre les àrees que vols monitoritzar...",
+        "btn_sending": "Enviant...",
+        "btn_send": "Enviar Missatge",
+        "msg_success": "Missatge enviat amb èxit. Ens posarem en contacte aviat.",
+        "msg_error": "Error a l'enviar. Assegura't que les credencials EmailJS són correctes."
+    }
+}
