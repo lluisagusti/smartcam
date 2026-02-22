@@ -35,7 +35,7 @@ const Navigation = () => {
 
                     {/* Desktop Menu */}
                     <div className="nav-links">
-                        <a href="/privacy-policy">{t('nav.architecture')}</a>
+                        <a href="/privacy-architecture">{t('nav.architecture')}</a>
                         <a href="/#applications">{t('nav.applications')}</a>
                         <a href="/#technology">{t('nav.ethical_edge')}</a>
                     </div>
@@ -63,7 +63,7 @@ const Navigation = () => {
             {/* iOS Style Mobile Menu Overlay */}
             <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}></div>
 
-            <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
+            <div className={`mobile-menu ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}>
                 <div className="mobile-menu-header">
                     <div className="mobile-menu-brand">
                         <img src="/logo.png" alt="SmartCam Logo" className="mobile-menu-logo" />
@@ -73,7 +73,7 @@ const Navigation = () => {
                     </button>
                 </div>
                 <div className="mobile-menu-scroll">
-                    <a href="/privacy-policy" onClick={() => setIsOpen(false)}>{t('nav.architecture')}</a>
+                    <a href="/privacy-architecture" onClick={() => setIsOpen(false)}>{t('nav.architecture')}</a>
                     <a href="/#applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</a>
                     <a href="/#technology" onClick={() => setIsOpen(false)}>{t('nav.ethical_edge')}</a>
                     <a href="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</a>

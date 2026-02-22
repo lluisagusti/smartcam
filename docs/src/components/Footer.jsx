@@ -29,9 +29,9 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <p>&copy; {new Date().getFullYear()} {t('footer.rights')}</p>
                     <div className="legal-links">
-                        <a href="/privacy-policy">{t('footer.privacy_policy')}</a>
+                        <a href="/privacy-architecture">{t('footer.privacy_policy')}</a>
                         <a href="#">{t('footer.terms')}</a>
-                        <a href="/privacy-policy">{t('footer.gdpr')}</a>
+                        <a href="/privacy-architecture">{t('footer.gdpr')}</a>
                     </div>
                 </div>
             </div>
