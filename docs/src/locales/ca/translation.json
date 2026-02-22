@@ -54,6 +54,22 @@
         "card3_title": "Zero Comercialització de Dades",
         "card3_desc": "Les grans corporacions tecnològiques tenen un llarg historial de recopilació de dades per vendre a tercers. La nostra solució es basa en tecnologia Edge. L'ajuntament posseeix el maquinari i les dades anònimes. No hi ha perfils publicitaris secrets i existeix absolut compliment de la legislació europea GDPR."
     },
+    "privacy_policy_page": {
+        "title": "Política de Privacitat",
+        "last_updated": "Última actualització: Octubre 2023",
+        "intro": "A SmartCam Solutions, la privacitat no és una idea d'última hora: és el principi de disseny fonamental de totes les nostres tecnologies municipals. Aquesta Política de Privacitat detalla com operen els nostres sistemes Edge AI per garantir l'anonimat total i la protecció dels ciutadans als espais públics.",
+        "s1_title": "1. Dades que NO Recopilem",
+        "s1_body": "A diferència de les càmeres de seguretat tradicionals, els nostres sistemes no transmeten, graven ni emmagatzemen seqüències de vídeo en brut. No utilitzem tecnologia de reconeixement facial. No rastregem individus en espais públics o privats. No recopilem informació d'identificació personal (PII) del públic en general.",
+        "s2_title": "2. Com Funciona el Processament Edge",
+        "s2_body": "El nostre maquinari utilitza Edge AI. Això vol dir que tota l'anàlisi de vídeo ocorre localment en el processador intern de la càmera en temps real. La càmera observa l'entorn, extreu les metadades analítiques necessàries (per exemple, '3 vehicles detectats' o 'espai d'estacionament ocupat') i després elimina instantàniament el vídeo original de la memòria.",
+        "s3_title": "3. Quines Dades es Transmeten",
+        "s3_body": "Les úniques dades transmeses des dels nostres dispositius als centres de control municipals (com un tauler de Grafana) són metadades anònimes i agregades que consisteixen en marques de temps, coordenades i classificacions d'esdeveniments genèrics. Aquestes dades no poden ser sotmeses a enginyeria inversa per identificar cap individu.",
+        "s4_title": "4. Compliment Europeu del GDPR",
+        "s4_body": "La nostra arquitectura està dissenyada des de zero per aconseguir el compliment immediat del Reglament General de Protecció de Dades (GDPR) i altres estrictes lleis de privacitat europees. Com que els nostres sistemes no processen ni retenen dades personals, la càrrega reguladora per als municipis que implementen la nostra tecnologia es minimitza significativament.",
+        "s5_title": "5. Propietat i Comercialització",
+        "s5_body": "SmartCam Solutions opera en un estricte model de zero comercialització de dades. No venem, lloguem ni monetitzem dades analítiques. Les metadades anònimes generades pel maquinari són propietat exclusiva del municipi o organització que ho va implementar.",
+        "contact": "Per a qualsevol consulta sobre el nostre maneig de dades o arquitectura de privacitat, comuniqueu-vos amb el nostre equip d'enginyeria."
+    },
     "footer": {
         "desc": "Proporcionant solucions Edge AI d'avantguarda que prioritzen la privacitat per a ciutats europees.",
         "solutions": "Solucions",

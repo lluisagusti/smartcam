@@ -54,6 +54,22 @@
         "card3_title": "Cero Comercialización de Datos",
         "card3_desc": "Las grandes corporaciones tecnológicas tienen un largo historial de recopilación de datos para vender a terceros. Nuestra solución se basa en tecnología Edge. El ayuntamiento posee el hardware y los datos anónimos. No hay perfiles publicitarios secretos y existe absoluto cumplimiento de la legislación europea GDPR."
     },
+    "privacy_policy_page": {
+        "title": "Política de Privacidad",
+        "last_updated": "Última actualización: Octubre 2023",
+        "intro": "En SmartCam Solutions, la privacidad no es una idea de última hora: es el principio de diseño fundamental de todas nuestras tecnologías municipales. Esta Política de Privacidad detalla cómo operan nuestros sistemas Edge AI para garantizar el anonimato total y la protección de los ciudadanos en los espacios públicos.",
+        "s1_title": "1. Datos que NO Recopilamos",
+        "s1_body": "A diferencia de las cámaras de seguridad tradicionales, nuestros sistemas no transmiten, graban ni almacenan secuencias de video en bruto. No utilizamos tecnología de reconocimiento facial. No rastreamos individuos en espacios públicos o privados. No recopilamos información de identificación personal (PII) del público en general.",
+        "s2_title": "2. Cómo Funciona el Procesamiento Edge",
+        "s2_body": "Nuestro hardware utiliza Edge AI. Esto significa que todo el análisis de video ocurre localmente en el procesador interno de la cámara en tiempo real. La cámara observa el entorno, extrae los metadatos analíticos necesarios (por ejemplo, '3 vehículos detectados' o 'espacio de estacionamiento ocupado') y luego elimina instantáneamente el video original de la memoria.",
+        "s3_title": "3. Qué Datos se Transmiten",
+        "s3_body": "Los únicos datos transmitidos desde nuestros dispositivos a los centros de control municipales (como un panel de Grafana) son metadatos anónimos y agregados que consisten en marcas de tiempo, coordenadas y clasificaciones de eventos genéricos. Estos datos no pueden ser sometidos a ingeniería inversa para identificar a ningún individuo.",
+        "s4_title": "4. Cumplimiento Europeo del GDPR",
+        "s4_body": "Nuestra arquitectura está diseñada desde cero para lograr el cumplimiento inmediato del Reglamento General de Protección de Datos (GDPR) y otras estrictas leyes de privacidad europeas. Debido a que nuestros sistemas no procesan ni retienen datos personales, la carga regulatoria para los municipios que implementan nuestra tecnología se minimiza significativamente.",
+        "s5_title": "5. Propiedad y Comercialización",
+        "s5_body": "SmartCam Solutions opera en un estricto modelo de cero comercialización de datos. No vendemos, alquilamos ni monetizamos datos analíticos. Los metadatos anónimos generados por el hardware son propiedad exclusiva del municipio u organización que lo implementó.",
+        "contact": "Para cualquier consulta sobre nuestro manejo de datos o arquitectura de privacidad, comuníquese con nuestro equipo de ingeniería."
+    },
     "footer": {
         "desc": "Proporcionando soluciones Edge AI de vanguardia que priorizan la privacidad para ciudades europeas.",
         "solutions": "Soluciones",

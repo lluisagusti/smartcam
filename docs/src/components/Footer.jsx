@@ -18,23 +18,6 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="footer-links">
-                        <h4>{t('footer.solutions')}</h4>
-                        <ul>
-                            <li><a href="/#applications">{t('footer.sol_parking')}</a></li>
-                            <li><a href="/#applications">{t('footer.sol_analytics')}</a></li>
-                            <li><a href="/#applications">{t('footer.sol_monitoring')}</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="footer-links">
-                        <h4>{t('footer.company')}</h4>
-                        <ul>
-                            <li><a href="/#compliance">{t('footer.comp_compliance')}</a></li>
-                            <li><a href="/#technology">{t('footer.comp_tech')}</a></li>
-                            <li><a href="/contact">{t('footer.comp_contact')}</a></li>
-                        </ul>
-                    </div>
 
                     <div className="footer-contact">
                         <h4>{t('footer.ready_title')}</h4>
@@ -46,9 +29,9 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <p>&copy; {new Date().getFullYear()} {t('footer.rights')}</p>
                     <div className="legal-links">
-                        <a href="#">{t('footer.privacy_policy')}</a>
+                        <a href="/privacy-policy">{t('footer.privacy_policy')}</a>
                         <a href="#">{t('footer.terms')}</a>
-                        <a href="#">{t('footer.gdpr')}</a>
+                        <a href="/privacy-policy">{t('footer.gdpr')}</a>
                     </div>
                 </div>
             </div>
