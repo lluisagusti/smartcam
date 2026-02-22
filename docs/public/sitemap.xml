@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://smartcam.eu/</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://smartcam.eu/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://smartcam.eu/" />
+        <xhtml:link rel="alternate" hreflang="ca" href="https://smartcam.eu/" />
+    </url>
+    <url>
+        <loc>https://smartcam.eu/applications</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://smartcam.eu/applications" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://smartcam.eu/applications" />
+        <xhtml:link rel="alternate" hreflang="ca" href="https://smartcam.eu/applications" />
+    </url>
+    <url>
+        <loc>https://smartcam.eu/privacy-architecture</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://smartcam.eu/privacy-architecture" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://smartcam.eu/privacy-architecture" />
+        <xhtml:link rel="alternate" hreflang="ca" href="https://smartcam.eu/privacy-architecture" />
+    </url>
+    <url>
+        <loc>https://smartcam.eu/contact</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="es" href="https://smartcam.eu/contact" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://smartcam.eu/contact" />
+        <xhtml:link rel="alternate" hreflang="ca" href="https://smartcam.eu/contact" />
+    </url>
+    <url>
+        <loc>https://smartcam.eu/legal-privacy</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://smartcam.eu/terms-of-service</loc>
+        <lastmod>2025-02-22</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset>

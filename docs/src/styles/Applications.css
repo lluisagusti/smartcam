@@ -61,39 +61,15 @@
 
 .app-block-badge {
     display: inline-block;
-    padding: 4px 14px;
+    padding: 2px 0 2px 12px;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    border-radius: 100px;
-    margin-bottom: var(--spacing-md);
-    color: #fff;
-}
-
-/* Badge colors per app */
-.app-block:nth-child(6n+1) .app-block-badge {
-    background: #0284c7;
-}
-
-.app-block:nth-child(6n+2) .app-block-badge {
-    background: #dc2626;
-}
-
-.app-block:nth-child(6n+3) .app-block-badge {
-    background: #7c3aed;
-}
-
-.app-block:nth-child(6n+4) .app-block-badge {
-    background: #059669;
-}
-
-.app-block:nth-child(6n+5) .app-block-badge {
-    background: #d97706;
-}
-
-.app-block:nth-child(6n+6) .app-block-badge {
-    background: #be185d;
+    letter-spacing: 0.1em;
+    border-left: 3px solid var(--color-accent);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-accent);
+    background: none;
 }
 
 .app-block-content h2 {

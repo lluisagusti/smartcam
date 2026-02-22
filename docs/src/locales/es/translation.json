@@ -26,7 +26,7 @@
         "header_subtitle": "Cada decisión arquitectónica en SmartCam se tomó para proteger primero al ciudadano y entregar inteligencia municipal después. Esto es lo que nos hace fundamentalmente diferentes.",
         "item1_title": "Ninguna Imagen Sale de la Cámara",
         "item1_content": "Cada fotograma de vídeo es analizado por el procesador de IA integrado en tiempo real e inmediatamente destruido. Solo metadatos anónimos — como conteos de vehículos o estado de ocupación — salen del dispositivo. No hay ningún servidor en la nube almacenando las grabaciones de tu ciudad. No hay nada que hackear ni filtrar.",
-        "item2_title": "La Población es Dueña de Todo",
+        "item2_title": "Modelo de Cero Comercialización de Datos",
         "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas.",
         "item3_title": "IA Autónoma, Control Humano",
         "item3_content": "Nuestras cámaras equipadas con gimbal operan de forma autónoma, escaneando y analizando entornos 24/7 sin intervención humana. Cuando una situación lo requiere, un operador formado puede tomar el control manual completo de la cámara, accediendo a la transmisión de vídeo en vivo en tiempo real. En el momento en que el operador libera el control, la cámara regresa al modo autónomo de Edge AI — ninguna grabación se almacena ni se retiene jamás."
@@ -48,7 +48,7 @@
         "app6_desc": "Usa visión Edge AI avanzada para alertar instantáneamente a los servicios de limpieza municipal cuando se abandonan objetos grandes sin autorización, disuadiendo los vertidos ilegales."
     },
     "applications_page": {
-        "hero_title": "Soluciones Inteligentes para Ciudades Modernas",
+        "hero_title": "IA al Servicio de Tu Ciudad",
         "hero_subtitle": "Cada aplicación está diseñada para funcionar de forma autónoma en el Edge, protegiendo la privacidad ciudadana mientras transforma la gestión municipal con datos anónimos en tiempo real.",
         "app1_badge": "Movilidad",
         "app1_title": "Gestión Inteligente de Aparcamiento",
@@ -67,7 +67,7 @@
         "app5_body": "Impulsado por WiFi HaLow y redes Meshtastic, nuestro sistema permite monitorizar ubicaciones remotas — como parques naturales, zonas forestales o infraestructuras rurales — sin depender de costosas redes móviles 4G/5G. Las antenas de largo alcance y bajo consumo transmiten datos anónimos a kilómetros de distancia con un coste de conectividad prácticamente nulo. La solución es ideal para la detección temprana de incendios forestales, el control de accesos en zonas protegidas y la vigilancia de infraestructuras críticas en áreas sin cobertura celular.",
         "app6_badge": "Medio Ambiente",
         "app6_title": "Detección de Vertidos Ilegales",
-        "app6_body": "El sistema utiliza modelos YOLO de detección de objetos entrenados específicamente para identificar contenedores abandonados, escombros, electrodomésticos y otros residuos voluminosos depositados ilegalmente en callejones, descampados y áreas periurbanas. Cuando se detecta un vertido, se genera una alerta instantánea al departamento de limpieza municipal con la ubicación exacta y una clasificación del tipo de residuo. El efecto disuasorio es inmediato: los puntos negros de vertidos se reducen drásticamente cuando los infractores saben que la zona está monitorizada.",
+        "app6_body": "El sistema utiliza nuestros modelos entrenados de detección de objetos diseñados específicamente para identificar contenedores abandonados, escombros, electrodomésticos y otros residuos voluminosos depositados ilegalmente en callejones, descampados y áreas periurbanas. Cuando se detecta un vertido, se genera una alerta instantánea al departamento de limpieza municipal con la ubicación exacta y una clasificación del tipo de residuo. El efecto disuasorio es inmediato: los puntos negros de vertidos se reducen drásticamente cuando los infractores saben que la zona está monitorizada.",
         "feat_edge_ai": "Edge AI",
         "feat_edge_ai_icon": "🧠",
         "feat_real_time": "Tiempo real",
@@ -98,7 +98,7 @@
         "feat_low_cost_icon": "💰",
         "feat_long_range": "Largo alcance",
         "feat_long_range_icon": "📶",
-        "feat_detection": "Detección YOLO",
+        "feat_detection": "Detección IA propia",
         "feat_detection_icon": "👁️",
         "feat_instant_alert": "Alerta instantánea",
         "feat_instant_alert_icon": "🚨",
@@ -323,5 +323,19 @@
         "s13_body": "Los presentes Términos de Servicio se rigen por la legislación española. Para la resolución de cualquier controversia que pudiera surgir entre la Empresa y el usuario, ambas partes se someten expresamente a los Juzgados y Tribunales de la ciudad de Barcelona, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, excepto cuando la legislación aplicable disponga imperativamente otra cosa.",
         "s14_title": "14. Modificación de los Términos",
         "s14_body": "La Empresa se reserva el derecho de modificar los presentes Términos de Servicio en cualquier momento y sin previo aviso. Las modificaciones entrarán en vigor desde el momento de su publicación en el sitio web. El uso continuado del sitio web por parte del usuario tras la publicación de los Términos modificados implicará la aceptación de los mismos. Se recomienda al usuario revisar periódicamente estos Términos de Servicio."
+    },
+    "seo": {
+        "home_title": "SmartCam Solutions | Edge AI para Ciudades Inteligentes",
+        "home_desc": "Tecnología Edge AI de visión artificial para ciudades inteligentes. Gestión de aparcamiento, control de tráfico, analítica de multitudes y monitorización remota con privacidad total. Sin reconocimiento facial. RGPD por diseño.",
+        "applications_title": "Aplicaciones | SmartCam Solutions — Soluciones Edge AI para Municipios",
+        "applications_desc": "Descubre nuestras 6 soluciones Edge AI para ciudades: aparcamiento inteligente, control de tráfico, mapas de calor, conteo de personas, monitorización remota y detección de vertidos ilegales. Privacidad total garantizada.",
+        "privacy_arch_title": "Arquitectura de Privacidad | SmartCam Solutions — Edge AI Ético",
+        "privacy_arch_desc": "Cómo nuestra arquitectura Edge AI garantiza la privacidad ciudadana. Procesamiento local, sin envío de vídeo a la nube, sin reconocimiento facial. Cumplimiento total RGPD y LOPDGDD.",
+        "contact_title": "Contacto | SmartCam Solutions — Solicita una Demostración",
+        "contact_desc": "Contacta con SmartCam Solutions para solicitar una demostración personalizada de nuestras soluciones Edge AI para tu municipio. Tecnología ética, privacidad garantizada.",
+        "legal_title": "Política de Privacidad | SmartCam Solutions",
+        "legal_desc": "Política de privacidad de SmartCam Solutions. Cumplimiento RGPD y LOPDGDD. Información sobre el tratamiento de datos personales.",
+        "terms_title": "Términos de Servicio | SmartCam Solutions",
+        "terms_desc": "Términos y condiciones de uso del sitio web de SmartCam Solutions. Legislación aplicable y jurisdicción de Barcelona."
     }
 }

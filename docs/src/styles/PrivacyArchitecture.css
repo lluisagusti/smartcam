@@ -82,6 +82,21 @@
     background-color: var(--color-bg);
 }
 
+.pp-flow-visual {
+    max-width: 900px;
+    margin: 0 auto var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--color-border);
+}
+
+.pp-flow-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .pp-flow-grid {
     display: flex;
     align-items: flex-start;

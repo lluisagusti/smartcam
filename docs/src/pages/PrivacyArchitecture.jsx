@@ -1,15 +1,22 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
 import { ShieldCheck, Cpu, Eye, EyeOff, Database, Scale, ArrowRight, Lock, CloudOff, Users } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/PrivacyArchitecture.css';
 
 const PrivacyArchitecture = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <div className="page-wrapper">
+            <Helmet>
+                <html lang={i18n.language} />
+                <title>{t('seo.privacy_arch_title')}</title>
+                <meta name="description" content={t('seo.privacy_arch_desc')} />
+                <link rel="canonical" href="https://smartcam.eu/privacy-architecture" />
+            </Helmet>
             <Navigation />
 
             {/* Hero Section */}
@@ -28,6 +35,9 @@ const PrivacyArchitecture = () => {
                     <div className="pp-section-header">
                         <h2>{t('privacy_policy_page.flow_title')}</h2>
                         <p>{t('privacy_policy_page.flow_subtitle')}</p>
+                    </div>
+                    <div className="pp-flow-visual">
+                        <img src="./images/privacy/data-flow.jpg" alt="Privacy Data Flow" className="pp-flow-img" />
                     </div>
                     <div className="pp-flow-grid">
                         <div className="pp-flow-step">

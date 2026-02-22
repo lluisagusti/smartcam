@@ -26,7 +26,7 @@
         "header_subtitle": "Cada decisió arquitectònica a SmartCam es va prendre per protegir primer el ciutadà i lliurar intel·ligència municipal després. Això és el que ens fa fonamentalment diferents.",
         "item1_title": "Cap Imatge Surt de la Càmera",
         "item1_content": "Cada fotograma de vídeo és analitzat pel processador d'IA integrat en temps real i immediatament destruït. Només metadades anònimes — com comptatges de vehicles o estat d'ocupació — surten del dispositiu. No hi ha cap servidor al núvol emmagatzemant les gravacions de la teva ciutat. No hi ha res a piratejar ni filtrar.",
-        "item2_title": "La Població és Propietària de Tot",
+        "item2_title": "Model de Zero Comercialització de Dades",
         "item2_content": "A diferència de les plataformes de vigilància de les grans tecnològiques, SmartCam opera amb un model de zero comercialització de dades. L'ajuntament posseeix el maquinari. L'ajuntament posseeix les anàlisis anònimes. Mai venem, lloguem ni monetitzem les teves dades. El compliment total del GDPR està garantit per l'arquitectura, no només per polítiques.",
         "item3_title": "IA Autònoma, Control Humà",
         "item3_content": "Les nostres càmeres equipades amb gimbal operen de forma autònoma, escanejant i analitzant entorns 24/7 sense intervenció humana. Quan una situació ho requereix, un operador format pot prendre el control manual complet de la càmera, accedint a la transmissió de vídeo en viu en temps real. En el moment en què l'operador allibera el control, la càmera torna al mode autònom d'Edge AI — cap gravació s'emmagatzema ni es reté mai."
@@ -48,7 +48,7 @@
         "app6_desc": "Usa visió Edge AI avançada per alertar instantàniament els serveis de neteja municipal quan s'abandonen objectes grans sense autorització, dissuadint els abocaments il·legals."
     },
     "applications_page": {
-        "hero_title": "Solucions Intel·ligents per a Ciutats Modernes",
+        "hero_title": "IA al Servei de la Teva Ciutat",
         "hero_subtitle": "Cada aplicació està dissenyada per funcionar de forma autònoma a l'Edge, protegint la privacitat ciutadana mentre transforma la gestió municipal amb dades anònimes en temps real.",
         "app1_badge": "Mobilitat",
         "app1_title": "Gestió Intel·ligent d'Aparcament",
@@ -67,7 +67,7 @@
         "app5_body": "Impulsat per WiFi HaLow i xarxes Meshtastic, el nostre sistema permet monitoritzar ubicacions remotes — com parcs naturals, zones forestals o infraestructures rurals — sense dependre de costoses xarxes mòbils 4G/5G. Les antenes de llarg abast i baix consum transmeten dades anònimes a quilòmetres de distància amb un cost de connectivitat pràcticament nul. La solució és ideal per a la detecció primerenca d'incendis forestals, el control d'accessos en zones protegides i la vigilància d'infraestructures crítiques en àrees sense cobertura cel·lular.",
         "app6_badge": "Medi Ambient",
         "app6_title": "Detecció d'Abocaments Il·legals",
-        "app6_body": "El sistema utilitza models YOLO de detecció d'objectes entrenats específicament per identificar contenidors abandonats, runes, electrodomèstics i altres residus voluminosos dipositats il·legalment en carrerons, descampats i àrees periurbanes. Quan es detecta un abocament, es genera una alerta instantània al departament de neteja municipal amb la ubicació exacta i una classificació del tipus de residu. L'efecte dissuasori és immediat: els punts negres d'abocaments es redueixen dràsticament quan els infractors saben que la zona està monitoritzada.",
+        "app6_body": "El sistema utilitza els nostres models entrenats de detecció d'objectes dissenyats específicament per identificar contenidors abandonats, runes, electrodomèstics i altres residus voluminosos dipositats il·legalment en carrerons, descampats i àrees periurbanes. Quan es detecta un abocament, es genera una alerta instantània al departament de neteja municipal amb la ubicació exacta i una classificació del tipus de residu. L'efecte dissuasori és immediat: els punts negres d'abocaments es redueixen dràsticament quan els infractors saben que la zona està monitoritzada.",
         "feat_edge_ai": "Edge AI",
         "feat_edge_ai_icon": "🧠",
         "feat_real_time": "Temps real",
@@ -98,7 +98,7 @@
         "feat_low_cost_icon": "💰",
         "feat_long_range": "Llarg abast",
         "feat_long_range_icon": "📶",
-        "feat_detection": "Detecció YOLO",
+        "feat_detection": "Detecció IA pròpia",
         "feat_detection_icon": "👁️",
         "feat_instant_alert": "Alerta instantània",
         "feat_instant_alert_icon": "🚨",
@@ -319,5 +319,19 @@
         "s13_body": "Els presents Termes de Servei es regeixen per la legislació espanyola. Per a la resolució de qualsevol controvèrsia que pogues sorgir entre l'Empresa i l'usuari, ambdues parts se sotmeten expressament als Jutjats i Tribunals de la ciutat de Barcelona, amb renúncia expressa a qualsevol altre fur que pogues correspondre'ls, excepte quan la legislació aplicable disposi imperativament una altra cosa.",
         "s14_title": "14. Modificació dels Termes",
         "s14_body": "L'Empresa es reserva el dret de modificar els presents Termes de Servei en qualsevol moment i sense avís previ. Les modificacions entraran en vigor des del moment de la seva publicació al lloc web. L'ús continuat del lloc web per part de l'usuari després de la publicació dels Termes modificats implicarà l'acceptació dels mateixos. Es recomana a l'usuari revisar periòdicament aquests Termes de Servei."
+    },
+    "seo": {
+        "home_title": "SmartCam Solutions | Edge AI per a Ciutats Intel·ligents",
+        "home_desc": "Tecnologia Edge AI de visió artificial per a ciutats intel·ligents. Gestió d'aparcament, control de trànsit, analítica de multituds i monitorització remota amb privacitat total. Sense reconeixement facial. RGPD per disseny.",
+        "applications_title": "Aplicacions | SmartCam Solutions — Solucions Edge AI per a Municipis",
+        "applications_desc": "Descobreix les nostres 6 solucions Edge AI per a ciutats: aparcament intel·ligent, control de trànsit, mapes de calor, comptatge de persones, monitorització remota i detecció d'abocaments il·legals. Privacitat total garantida.",
+        "privacy_arch_title": "Arquitectura de Privacitat | SmartCam Solutions — Edge AI Ètic",
+        "privacy_arch_desc": "Com la nostra arquitectura Edge AI garanteix la privacitat ciutadana. Processament local, sense enviament de vídeo al núvol, sense reconeixement facial. Compliment total RGPD i LOPDGDD.",
+        "contact_title": "Contacte | SmartCam Solutions — Sol·licita una Demostració",
+        "contact_desc": "Contacta amb SmartCam Solutions per sol·licitar una demostració personalitzada de les nostres solucions Edge AI per al teu municipi. Tecnologia ètica, privacitat garantida.",
+        "legal_title": "Política de Privacitat | SmartCam Solutions",
+        "legal_desc": "Política de privacitat de SmartCam Solutions. Compliment RGPD i LOPDGDD. Informació sobre el tractament de dades personals.",
+        "terms_title": "Termes de Servei | SmartCam Solutions",
+        "terms_desc": "Termes i condicions d'ús del lloc web de SmartCam Solutions. Legislació aplicable i jurisdicció de Barcelona."
     }
 }

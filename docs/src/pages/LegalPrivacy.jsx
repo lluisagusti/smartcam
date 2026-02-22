@@ -1,14 +1,21 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/LegalPrivacy.css';
 
 const LegalPrivacy = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <div className="page-wrapper">
+            <Helmet>
+                <html lang={i18n.language} />
+                <title>{t('seo.legal_title')}</title>
+                <meta name="description" content={t('seo.legal_desc')} />
+                <link rel="canonical" href="https://smartcam.eu/legal-privacy" />
+            </Helmet>
             <Navigation />
 
             <main className="legal-main">

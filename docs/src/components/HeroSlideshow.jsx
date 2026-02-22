@@ -6,24 +6,27 @@ import '../styles/HeroSlideshow.css';
 const getSlides = (t) => [
     {
         id: 1,
-        image: './images/parking-slot-monitoring/ai-parking-banner.png',
+        image: './images/hero/people-counting-hero.jpg',
         title: t('hero.slide1_title'),
         subtitle: t('hero.slide1_subtitle'),
-        cta: t('hero.slide1_cta')
+        cta: t('hero.slide1_cta'),
+        link: '/#applications'
     },
     {
         id: 2,
-        image: './images/crowd-heat-map/grafana-dashboard.png',
+        image: './images/hero/ethical-ai.jpg',
         title: t('hero.slide2_title'),
         subtitle: t('hero.slide2_subtitle'),
-        cta: t('hero.slide2_cta')
+        cta: t('hero.slide2_cta'),
+        link: '/#technology'
     },
     {
         id: 3,
-        image: './images/object-detection/output.jpg', // Using people counting image as a general representation
+        image: './images/hero/privacy.jpg',
         title: t('hero.slide3_title'),
         subtitle: t('hero.slide3_subtitle'),
-        cta: t('hero.slide3_cta')
+        cta: t('hero.slide3_cta'),
+        link: '/applications'
     }
 ];
 
@@ -51,7 +54,7 @@ const HeroSlideshow = () => {
                         <div className="slide-content">
                             <h1>{slide.title}</h1>
                             <p>{slide.subtitle}</p>
-                            <a href="/#applications" className="btn-primary hero-btn">{slide.cta}</a>
+                            <a href={slide.link} className="btn-primary hero-btn">{slide.cta}</a>
                         </div>
                     </div>
                 </div>

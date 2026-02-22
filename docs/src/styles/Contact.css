@@ -6,10 +6,43 @@
 
 /* Corporate hero */
 .contact-hero {
-    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
-    padding: var(--spacing-xl) var(--spacing-md);
+    position: relative;
+    padding: 100px var(--spacing-md) var(--spacing-xl);
     text-align: center;
     color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.contact-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.contact-hero-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 58, 95, 0.7) 100%);
+}
+
+.contact-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
 }
 
 .contact-hero h1 {
@@ -143,7 +176,9 @@
 }
 
 .captcha-icon {
-    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-accent);
 }
 
 .captcha-question {

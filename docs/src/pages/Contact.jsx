@@ -1,12 +1,14 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
+import { ShieldCheck } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/Contact.css';
 
 const Contact = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const form = useRef();
     const [status, setStatus] = useState('');
     const [sector, setSector] = useState('');
@@ -67,11 +69,20 @@ const Contact = () => {
 
     return (
         <>
+            <Helmet>
+                <html lang={i18n.language} />
+                <title>{t('seo.contact_title')}</title>
+                <meta name="description" content={t('seo.contact_desc')} />
+                <link rel="canonical" href="https://smartcam.eu/contact" />
+            </Helmet>
             <Navigation />
             <main className="contact-page">
                 <section className="contact-hero">
-                    <h1>{t('contact.title')}</h1>
-                    <p>{t('contact.subtitle')}</p>
+                    <div className="contact-hero-image" style={{ backgroundImage: "url('./images/contact/contact-hero.jpg')" }}></div>
+                    <div className="contact-hero-content">
+                        <h1>{t('contact.title')}</h1>
+                        <p>{t('contact.subtitle')}</p>
+                    </div>
                 </section>
 
                 <section className="contact-form-section">
@@ -117,7 +128,9 @@ const Contact = () => {
                             {/* Captcha */}
                             <div className="captcha-box">
                                 <div className="captcha-challenge">
-                                    <span className="captcha-icon">🔒</span>
+                                    <span className="captcha-icon">
+                                        <ShieldCheck size={18} strokeWidth={2.5} />
+                                    </span>
                                     <span className="captcha-question">
                                         {t('contact.captcha_question', { a: captchaNums.a, b: captchaNums.b })}
                                     </span>

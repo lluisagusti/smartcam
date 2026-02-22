@@ -1,11 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/LegalPrivacy.css';
 
 const TermsOfService = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     const sections = [
         { key: 's1', hasDetails: true },
@@ -18,6 +19,12 @@ const TermsOfService = () => {
 
     return (
         <div className="page-wrapper">
+            <Helmet>
+                <html lang={i18n.language} />
+                <title>{t('seo.terms_title')}</title>
+                <meta name="description" content={t('seo.terms_desc')} />
+                <link rel="canonical" href="https://smartcam.eu/terms-of-service" />
+            </Helmet>
             <Navigation />
 
             <main className="legal-main">

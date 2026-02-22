@@ -6,32 +6,32 @@ const getApplications = (t) => [
     {
         title: t('applications.app1_title'),
         description: t('applications.app1_desc'),
-        image: './images/parking-slot-monitoring/diagram.png',
+        image: './images/applications/parking.jpg',
     },
     {
         title: t('applications.app2_title'),
         description: t('applications.app2_desc'),
-        image: './images/camera_features.webp',
+        image: './images/applications/traffic.jpg',
     },
     {
         title: t('applications.app3_title'),
         description: t('applications.app3_desc'),
-        image: './images/crowd-heat-map/diagram.png',
+        image: './images/applications/crowd.jpg',
     },
     {
         title: t('applications.app4_title'),
         description: t('applications.app4_desc'),
-        image: './images/object-detection/person-small.gif',
+        image: './images/applications/people-counting.jpg',
     },
     {
         title: t('applications.app5_title'),
         description: t('applications.app5_desc'),
-        image: './images/remote-monitoring-halow/diagram.png',
+        image: './images/applications/remote-monitoring.jpg',
     },
     {
         title: t('applications.app6_title'),
         description: t('applications.app6_desc'),
-        image: './images/yolo-object-detection/dashboard2.png',
+        image: './images/applications/waste-detection.jpg',
     }
 ];
 

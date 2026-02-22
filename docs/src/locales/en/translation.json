@@ -26,7 +26,7 @@
         "header_subtitle": "Every architectural decision in SmartCam was made to protect citizens first and deliver municipal intelligence second. Here is what makes us fundamentally different.",
         "item1_title": "No Image Ever Leaves the Camera",
         "item1_content": "Every frame of video is analysed by the on-board AI processor in real-time and then immediately destroyed. Only anonymous metadata — like vehicle counts or occupancy status — ever leaves the device. There is no cloud server storing your city's footage. There is nothing to hack or leak.",
-        "item2_title": "The Municipality Owns Everything",
+        "item2_title": "Zero Data Brokerage Model",
         "item2_content": "Unlike big-tech surveillance platforms, SmartCam operates on a zero data brokerage model. The council owns the hardware. The council owns the anonymous analytics. We never sell, rent, or monetize your data. Full GDPR compliance is guaranteed by architecture, not just policy.",
         "item3_title": "Autonomous AI, Human Override",
         "item3_content": "Our gimbal-equipped cameras operate autonomously, scanning and analysing environments 24/7 without human intervention. When a situation demands it, a trained operator can take full manual control of the camera, accessing a live video feed in real-time. The moment the operator releases control, the camera returns to autonomous Edge AI mode — no footage is ever stored or retained."
@@ -48,7 +48,7 @@
         "app6_desc": "Use advanced Edge AI vision to instantly alert municipal cleaning services when unauthorized large items are abandoned in alleys or outskirts, deterring fly-tipping."
     },
     "applications_page": {
-        "hero_title": "Smart Solutions for Modern Cities",
+        "hero_title": "AI at the Service of Your City",
         "hero_subtitle": "Every application is designed to run autonomously on the Edge, protecting citizen privacy while transforming municipal management with real-time anonymous data.",
         "app1_badge": "Mobility",
         "app1_title": "Smart Parking Management",
@@ -67,7 +67,7 @@
         "app5_body": "Powered by WiFi HaLow and Meshtastic networks, our system enables monitoring of remote locations — such as natural parks, forest areas or rural infrastructure — without relying on expensive 4G/5G mobile networks. Low-power, long-range antennas transmit anonymous data over kilometres at virtually zero connectivity cost. The solution is ideal for early wildfire detection, access control in protected areas and surveillance of critical infrastructure in areas without cellular coverage.",
         "app6_badge": "Environment",
         "app6_title": "Illegal Waste Dumping Detection",
-        "app6_body": "The system uses YOLO object detection models specifically trained to identify abandoned containers, rubble, appliances and other bulky waste illegally deposited in alleys, wastelands and peri-urban areas. When a dump is detected, an instant alert is generated to the municipal cleaning department with the exact location and a classification of the type of waste. The deterrent effect is immediate: illegal dumping hotspots are drastically reduced when offenders know the area is monitored.",
+        "app6_body": "The system uses our trained object detection models specifically designed to identify abandoned containers, rubble, appliances and other bulky waste illegally deposited in alleys, wastelands and peri-urban areas. When a dump is detected, an instant alert is generated to the municipal cleaning department with the exact location and a classification of the type of waste. The deterrent effect is immediate: illegal dumping hotspots are drastically reduced when offenders know the area is monitored.",
         "feat_edge_ai": "Edge AI",
         "feat_edge_ai_icon": "🧠",
         "feat_real_time": "Real-time",
@@ -98,7 +98,7 @@
         "feat_low_cost_icon": "💰",
         "feat_long_range": "Long range",
         "feat_long_range_icon": "📶",
-        "feat_detection": "YOLO Detection",
+        "feat_detection": "AI Detection",
         "feat_detection_icon": "👁️",
         "feat_instant_alert": "Instant alert",
         "feat_instant_alert_icon": "🚨",
@@ -323,5 +323,19 @@
         "s13_body": "These Terms of Service are governed by Spanish law. For the resolution of any disputes that may arise between the Company and the user, both parties expressly submit to the Courts and Tribunals of the city of Barcelona, with express waiver of any other jurisdiction that may apply, except where applicable law imperatively provides otherwise.",
         "s14_title": "14. Amendments to Terms",
         "s14_body": "The Company reserves the right to modify these Terms of Service at any time and without prior notice. Modifications shall take effect from the moment of their publication on the website. Continued use of the website by the user following the publication of the modified Terms shall imply acceptance thereof. Users are advised to periodically review these Terms of Service."
+    },
+    "seo": {
+        "home_title": "SmartCam Solutions | Edge AI for Smart Cities",
+        "home_desc": "Edge AI computer vision technology for smart cities. Parking management, traffic control, crowd analytics and remote monitoring with full privacy. No facial recognition. GDPR by design.",
+        "applications_title": "Applications | SmartCam Solutions — Edge AI for Municipalities",
+        "applications_desc": "Discover our 6 Edge AI solutions for cities: smart parking, traffic control, crowd heatmaps, people counting, remote monitoring and illegal waste detection. Full privacy guaranteed.",
+        "privacy_arch_title": "Privacy Architecture | SmartCam Solutions — Ethical Edge AI",
+        "privacy_arch_desc": "How our Edge AI architecture guarantees citizen privacy. On-device processing, no video sent to the cloud, no facial recognition. Full GDPR and LOPDGDD compliance.",
+        "contact_title": "Contact | SmartCam Solutions — Request a Demo",
+        "contact_desc": "Contact SmartCam Solutions to request a personalised demo of our Edge AI solutions for your municipality. Ethical technology, privacy guaranteed.",
+        "legal_title": "Privacy Policy | SmartCam Solutions",
+        "legal_desc": "SmartCam Solutions privacy policy. GDPR and LOPDGDD compliance. Information about personal data processing.",
+        "terms_title": "Terms of Service | SmartCam Solutions",
+        "terms_desc": "Terms and conditions of use for the SmartCam Solutions website. Applicable legislation and Barcelona jurisdiction."
     }
 }
