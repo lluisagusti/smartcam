@@ -21,14 +21,14 @@
         "slide3_cta": "Ver Todas las Funciones"
     },
     "features": {
-        "header_title": "Privacidad Primero. Siempre.",
-        "header_subtitle": "La base de una ciudad inteligente es la confianza. Nuestras soluciones garantizan el anonimato mientras ofrecen conocimientos operativos críticos.",
-        "item1_title": "Procesamiento 100% Edge AI",
-        "item1_content": "Todos los feeds de video se procesan localmente en la cámara. No se envían secuencias de video a la nube, garantizando total privacidad al ciudadano.",
-        "item2_title": "Estricto Cumplimiento Europeo",
-        "item2_content": "Diseñado desde cero para cumplir con el GDPR y las leyes de privacidad europeas. No utilizamos reconocimiento facial ni rastreamos a las personas.",
-        "item3_title": "Sinergia de Plataformas",
-        "item3_content": "Se integra a la perfección con plataformas como Grafana y n8n, permitiendo a los ayuntamientos poseer sus propios datos y automatizar flujos de trabajo municipales de forma segura."
+        "header_title": "Diseñado Diferente. Por Principio.",
+        "header_subtitle": "Cada decisión arquitectónica en SmartCam se tomó para proteger primero al ciudadano y entregar inteligencia municipal después. Esto es lo que nos hace fundamentalmente diferentes.",
+        "item1_title": "Tus Datos Nunca Salen de la Cámara",
+        "item1_content": "Cada fotograma de vídeo es analizado por el procesador de IA integrado en tiempo real e inmediatamente destruido. Solo metadatos anónimos — como conteos de vehículos o estado de ocupación — salen del dispositivo. No hay ningún servidor en la nube almacenando las grabaciones de tu ciudad. No hay nada que hackear ni filtrar.",
+        "item2_title": "La Población es Dueña de Todo",
+        "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas.",
+        "item3_title": "IA Autónoma, Control Humano",
+        "item3_content": "Nuestras cámaras equipadas con gimbal operan de forma autónoma, escaneando y analizando entornos 24/7 sin intervención humana. Cuando una situación lo requiere, un operador formado puede tomar el control manual completo de la cámara, accediendo a la transmisión de vídeo en vivo en tiempo real. En el momento en que el operador libera el control, la cámara regresa al modo autónomo de Edge AI — ninguna grabación se almacena ni se retiene jamás."
     },
     "applications": {
         "header_title": "Transforma Tu Ciudad",
@@ -59,7 +59,7 @@
     "privacy_policy_page": {
         "badge": "Arquitectura de Privacidad",
         "title": "Arquitectura de Privacidad",
-        "last_updated": "Última actualización: Octubre 2023",
+        "last_updated": "",
         "intro": "En SmartCam Solutions, la privacidad no es una idea de última hora: es el principio de diseño fundamental de todas nuestras tecnologías municipales. Este documento detalla cómo operan nuestros sistemas Edge AI para garantizar el anonimato total y la protección de los ciudadanos en los espacios públicos.",
         "flow_title": "Cómo Funciona Nuestra Arquitectura de Privacidad",
         "flow_subtitle": "Desde que la luz llega al objetivo de la cámara hasta que los datos aparecen en tu panel, esto es exactamente lo que ocurre—y lo que no.",
@@ -82,7 +82,7 @@
         "s4_title": "Cumplimiento Europeo del GDPR",
         "s4_body": "Nuestra arquitectura está diseñada desde cero para lograr el cumplimiento inmediato del Reglamento General de Protección de Datos (GDPR) y otras estrictas leyes de privacidad europeas. Debido a que nuestros sistemas no procesan ni retienen datos personales, la carga regulatoria para los municipios que implementan nuestra tecnología se minimiza significativamente.",
         "s5_title": "Cero Comercialización de Datos",
-        "s5_body": "SmartCam Solutions opera en un estricto modelo de cero comercialización de datos. No vendemos, alquilamos ni monetizamos datos analíticos. Los metadatos anónimos generados por el hardware son propiedad exclusiva del municipio u organización que lo implementó.",
+        "s5_body": "SmartCam Solutions opera en un estricto modelo de cero comercialización de datos. No vendemos, alquilamos ni monetizamos datos analíticos. Los metadatos anónimos generados por el hardware son propiedad exclusiva de la población u organización que lo implementó.",
         "s6_title": "Derechos del Ciudadano",
         "s6_body": "Dado que nuestro sistema no recopila ni almacena datos personales, inherentemente no hay datos personales que solicitar, modificar o eliminar. Los ciudadanos en áreas monitorizadas por nuestras cámaras nunca son identificados, rastreados ni perfilados. El sistema está diseñado para cumplir con la privacidad por defecto, sin necesidad de exclusión.",
         "cta_title": "¿Preguntas Sobre Nuestra Privacidad?",
@@ -99,7 +99,7 @@
         "comp_tech": "Tecnología e IA",
         "comp_contact": "Contactar Ventas",
         "ready_title": "¿Listo para Actualizar?",
-        "ready_desc": "Despliega nuestro hardware en tu municipio.",
+        "ready_desc": "Despliega nuestro hardware en tu población.",
         "request_demo": "Pedir una Demo",
         "rights": "SmartCam Solutions. Todos los derechos reservados.",
         "privacy_policy": "Política de Privacidad",
@@ -108,7 +108,7 @@
     },
     "contact": {
         "title": "Ponte en Contacto",
-        "subtitle": "¿Listo para implementar Edge AI ético en tu municipio? Contacta hoy con nuestro equipo de ingenieros de ventas.",
+        "subtitle": "¿Listo para implementar Edge AI ético en tu población? Contacta hoy con nuestro equipo de ingenieros de ventas.",
         "name": "Nombre",
         "name_ph": "Juan Pérez",
         "email": "Correo Electrónico",
@@ -117,7 +117,7 @@
         "sector_select": "-- Seleccionar Sector --",
         "sector_public": "Administración Pública",
         "sector_private": "Empresa Privada",
-        "org": "Organización / Municipio",
+        "org": "Organización / Población",
         "org_ph": "Ayuntamiento de...",
         "details": "Detalles del Proyecto",
         "details_ph": "Cuéntanos sobre las áreas que quieres monitorizar...",
