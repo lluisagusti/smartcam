@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 import Navigation from '../components/Navigation';
@@ -8,11 +8,39 @@ import '../styles/Contact.css';
 const Contact = () => {
     const { t } = useTranslation();
     const form = useRef();
-    const [status, setStatus] = useState(''); // '', 'sending', 'success', 'error'
+    const [status, setStatus] = useState('');
     const [sector, setSector] = useState('');
+    const [captchaAnswer, setCaptchaAnswer] = useState('');
+    const [captchaNums, setCaptchaNums] = useState({ a: 0, b: 0 });
+    const [captchaError, setCaptchaError] = useState(false);
+
+    const generateCaptcha = useCallback(() => {
+        const a = Math.floor(Math.random() * 10) + 1;
+        const b = Math.floor(Math.random() * 10) + 1;
+        setCaptchaNums({ a, b });
+        setCaptchaAnswer('');
+        setCaptchaError(false);
+    }, []);
+
+    useEffect(() => {
+        generateCaptcha();
+    }, [generateCaptcha]);
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        // Honeypot check
+        if (form.current.website && form.current.website.value) {
+            return;
+        }
+
+        // Captcha check
+        if (parseInt(captchaAnswer) !== captchaNums.a + captchaNums.b) {
+            setCaptchaError(true);
+            generateCaptcha();
+            return;
+        }
+
         setStatus('sending');
 
         // Append the sector to the organization field before sending
@@ -21,11 +49,7 @@ const Contact = () => {
             form.current.organization.value = `[${sector}] ${originalOrg}`;
         }
 
-        // Using provided credentials: service_m5j4ynp, template_drhmf6q
-        // Note: To work completely, a public key is usually required by EmailJS, 
-        // but the user only provided service and template IDs. We will pass a placeholder 
-        // or let it assume it's initialized globally in index.html (if we had the key).
-        // The standard signature is sendForm(serviceID, templateID, form.current, publicKey)
+        // EmailJS: service_m5j4ynp, template_drhmf6q, public key: Yez--sSgdi9ETP4fw
         emailjs.sendForm('service_m5j4ynp', 'template_drhmf6q', form.current, 'Yez--sSgdi9ETP4fw')
             .then((result) => {
                 setStatus('success');
@@ -37,6 +61,7 @@ const Contact = () => {
                 form.current.organization.value = originalOrg;
                 console.error(error.text);
                 setStatus('error');
+                generateCaptcha();
             });
     };
 
@@ -84,6 +109,28 @@ const Contact = () => {
                             <div className="form-group">
                                 <label>{t('contact.details')}</label>
                                 <textarea name="message" required rows="5" placeholder={t('contact.details_ph')}></textarea>
+                            </div>
+
+                            {/* Honeypot - hidden from humans */}
+                            <input type="text" name="website" style={{ display: 'none' }} tabIndex="-1" autoComplete="off" />
+
+                            {/* Captcha */}
+                            <div className="captcha-box">
+                                <div className="captcha-challenge">
+                                    <span className="captcha-icon">🔒</span>
+                                    <span className="captcha-question">
+                                        {t('contact.captcha_question', { a: captchaNums.a, b: captchaNums.b })}
+                                    </span>
+                                    <input
+                                        type="number"
+                                        value={captchaAnswer}
+                                        onChange={(e) => { setCaptchaAnswer(e.target.value); setCaptchaError(false); }}
+                                        className={`captcha-input ${captchaError ? 'captcha-error' : ''}`}
+                                        required
+                                        placeholder="?"
+                                    />
+                                </div>
+                                {captchaError && <p className="captcha-error-msg">{t('contact.captcha_wrong')}</p>}
                             </div>
 
                             <button
