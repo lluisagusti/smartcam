@@ -12,7 +12,7 @@
         "slide1_subtitle": "EU-compliant Edge AI cameras that process data locally, eliminating cloud privacy risks while delivering powerful real-time insights.",
         "slide1_cta": "Explore Solutions",
         "slide2_title": "The Ethical Choice for AI",
-        "slide2_subtitle": "No facial recognition. No cloud data brokerage. Our open-source hardware deletes raw video instantly, processing only anonymous metadata to keep your city safe and compliant.",
+        "slide2_subtitle": "No facial recognition. No cloud data brokerage. Our hardware deletes raw video instantly, processing only anonymous metadata to keep your city safe and compliant.",
         "slide2_cta": "Read Our Privacy Pledge",
         "slide3_title": "Complete Urban Intelligence",
         "slide3_subtitle": "Alleviate traffic jams, manage smart parking, and count foot traffic accurately. One camera architecture for endless municipal applications.",
@@ -25,7 +25,7 @@
         "item1_content": "All video feeds are processed locally on the camera. No video streams are sent to the cloud, ensuring total citizen privacy.",
         "item2_title": "Strict EU Compliance",
         "item2_content": "Designed from the ground up to comply with GDPR and European privacy laws. We do not use facial recognition or track individuals.",
-        "item3_title": "Open Source Synergy",
+        "item3_title": "Platform Synergy",
         "item3_content": "Integrates beautifully with platforms like Grafana and n8n, allowing councils to own their data and automate municipal workflows securely."
     },
     "applications": {
@@ -52,7 +52,7 @@
         "card2_title": "Immune to Cloud Data Leaks",
         "card2_desc": "We've all seen the news about massive companies suffering data breaches, exposing the private information of millions. Because our cameras process everything locally on the device (the \"edge\") and never send raw video to a central cloud server, there is no high-value database for hackers to steal. You can't leak what you don't store.",
         "card3_title": "Zero Data Brokerage",
-        "card3_desc": "Big tech corporations have a long history of collecting your data to sell to advertisers or third-party data brokers. Our solution is built on open-source technology. The council owns the hardware, and the council owns the anonymous data. There are no hidden backdoors, no secretive advertising profiles, and absolute compliance with European GDPR laws."
+        "card3_desc": "Big tech corporations have a long history of collecting your data to sell to advertisers or third-party data brokers. Our solution is built on edge computing technology. The council owns the hardware, and the council owns the anonymous data. There are no hidden backdoors, no secretive advertising profiles, and absolute compliance with European GDPR laws."
     },
     "footer": {
         "desc": "Providing cutting-edge, privacy-first Edge AI solutions for modern European cities and councils.",
@@ -65,7 +65,7 @@
         "comp_tech": "Technology & AI",
         "comp_contact": "Contact Sales",
         "ready_title": "Ready to Upgrade?",
-        "ready_desc": "Deploy our open-source powered hardware in your municipality.",
+        "ready_desc": "Deploy our hardware in your municipality.",
         "request_demo": "Request a Demo",
         "rights": "SmartCam Solutions. All rights reserved.",
         "privacy_policy": "Privacy Policy",

@@ -25,7 +25,7 @@
         "item1_content": "Tots els fluxos de vídeo es processen localment a la càmera. No s'envien seqüències de vídeo al núvol, garantint total privacitat al ciutadà.",
         "item2_title": "Estricte Compliment Europeu",
         "item2_content": "Dissenyat des de zero per complir amb el GDPR i les lleis de privacitat europees. No utilitzem reconeixement facial ni rastregem les persones.",
-        "item3_title": "Sinergia de Codi Obert",
+        "item3_title": "Sinergia de Plataformes",
         "item3_content": "S'integra a la perfecció amb plataformes com Grafana i n8n, permetent als ajuntaments posseir les seves pròpies dades i automatitzar fluxos de treball municipals de forma segura."
     },
     "applications": {
@@ -52,7 +52,7 @@
         "card2_title": "Immune a Filtratges de Dades al Núvol",
         "card2_desc": "Tots hem vist notícies de grans empreses patint ciberatacs, exposant informació privada. Com que les nostres càmeres processen tot localment al dispositiu (a l'\"Edge\") i mai envien vídeo en brut a un servidor central, no existeix una gran base de dades valuosa per als hackers. No pots filtrar allò que no emmagatzemes.",
         "card3_title": "Zero Comercialització de Dades",
-        "card3_desc": "Les grans corporacions tecnològiques tenen un llarg historial de recopilació de dades per vendre a tercers. La nostra solució es basa en maquinari de codi obert. L'ajuntament posseeix el maquinari i les dades anònimes. No hi ha perfils publicitaris secrets i existeix absolut compliment de la legislació europea GDPR."
+        "card3_desc": "Les grans corporacions tecnològiques tenen un llarg historial de recopilació de dades per vendre a tercers. La nostra solució es basa en tecnologia Edge. L'ajuntament posseeix el maquinari i les dades anònimes. No hi ha perfils publicitaris secrets i existeix absolut compliment de la legislació europea GDPR."
     },
     "footer": {
         "desc": "Proporcionant solucions Edge AI d'avantguarda que prioritzen la privacitat per a ciutats europees.",
@@ -65,7 +65,7 @@
         "comp_tech": "Tecnologia i IA",
         "comp_contact": "Contactar Vendes",
         "ready_title": "Llest per a Actualitzar?",
-        "ready_desc": "Desplega el nostre maquinari de codi obert al teu municipi.",
+        "ready_desc": "Desplega el nostre maquinari al teu municipi.",
         "request_demo": "Demanar una Demo",
         "rights": "SmartCam Solutions. Tots els drets reservats.",
         "privacy_policy": "Política de Privacitat",

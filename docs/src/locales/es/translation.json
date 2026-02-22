@@ -25,7 +25,7 @@
         "item1_content": "Todos los feeds de video se procesan localmente en la cámara. No se envían secuencias de video a la nube, garantizando total privacidad al ciudadano.",
         "item2_title": "Estricto Cumplimiento Europeo",
         "item2_content": "Diseñado desde cero para cumplir con el GDPR y las leyes de privacidad europeas. No utilizamos reconocimiento facial ni rastreamos a las personas.",
-        "item3_title": "Sinergia de Código Abierto",
+        "item3_title": "Sinergia de Plataformas",
         "item3_content": "Se integra a la perfección con plataformas como Grafana y n8n, permitiendo a los ayuntamientos poseer sus propios datos y automatizar flujos de trabajo municipales de forma segura."
     },
     "applications": {
@@ -52,7 +52,7 @@
         "card2_title": "Inmune a Filtros de Datos en la Nube",
         "card2_desc": "Todos hemos visto noticias de grandes empresas sufriendo cibertaques, exponiendo información privada. Como nuestras cámaras procesan todo localmente en el dispositivo (en el \"Edge\") y nunca envían video en bruto a un servidor central, no existe una gran base de datos valiosa para los hackers. No puedes filtrar lo que no almacenas.",
         "card3_title": "Cero Comercialización de Datos",
-        "card3_desc": "Las grandes corporaciones tecnológicas tienen un largo historial de recopilación de datos para vender a terceros. Nuestra solución se basa en hardware de código abierto. El ayuntamiento posee el hardware y los datos anónimos. No hay perfiles publicitarios secretos y existe absoluto cumplimiento de la legislación europea GDPR."
+        "card3_desc": "Las grandes corporaciones tecnológicas tienen un largo historial de recopilación de datos para vender a terceros. Nuestra solución se basa en tecnología Edge. El ayuntamiento posee el hardware y los datos anónimos. No hay perfiles publicitarios secretos y existe absoluto cumplimiento de la legislación europea GDPR."
     },
     "footer": {
         "desc": "Proporcionando soluciones Edge AI de vanguardia que priorizan la privacidad para ciudades europeas.",
@@ -65,7 +65,7 @@
         "comp_tech": "Tecnología e IA",
         "comp_contact": "Contactar Ventas",
         "ready_title": "¿Listo para Actualizar?",
-        "ready_desc": "Despliega nuestro hardware de código abierto en tu municipio.",
+        "ready_desc": "Despliega nuestro hardware en tu municipio.",
         "request_demo": "Pedir una Demo",
         "rights": "SmartCam Solutions. Todos los derechos reservados.",
         "privacy_policy": "Política de Privacidad",
