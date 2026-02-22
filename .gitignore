@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.venv
+/docs/node_modules
+/docs/images
+/docs/*-lock.json
+/docs/*.log
+/docs/dist

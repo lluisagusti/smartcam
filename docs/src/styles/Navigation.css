@@ -1,0 +1,119 @@
+.navbar {
+    background-color: var(--color-surface);
+    box-shadow: var(--shadow-sm);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: var(--color-text-primary);
+}
+
+.nav-logo strong {
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.nav-links {
+    display: none;
+    gap: var(--spacing-lg);
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: var(--color-accent);
+}
+
+.nav-actions {
+    display: none;
+}
+
+.btn-primary {
+    background-color: var(--color-accent);
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-accent-hover);
+}
+
+.mobile-menu-btn {
+    display: flex;
+    background: none;
+    border: none;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+    max-height: 300px;
+}
+
+.mobile-menu a {
+    padding: 1rem var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.mobile-menu a.mobile-btn {
+    background-color: var(--color-accent);
+    color: white;
+    text-align: center;
+    border-bottom: none;
+    margin: var(--spacing-sm) var(--spacing-md) var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+@media (min-width: 768px) {
+
+    .nav-links,
+    .nav-actions {
+        display: flex;
+    }
+
+    .mobile-menu-btn,
+    .mobile-menu {
+        display: none;
+    }
+}
