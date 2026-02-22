@@ -72,11 +72,9 @@ const Navigation = () => {
             <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}></div>
 
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                <div className="mobile-menu-bg-logo" />
                 <div className="mobile-menu-header">
                     <div className="mobile-menu-brand">
                         <img src="/logo.png" alt="SmartCam Logo" className="mobile-menu-logo" />
-                        <span className="mobile-menu-title">{t('nav.title_strong')}Cam</span>
                     </div>
                     <button className="mobile-close-btn" onClick={() => setIsOpen(false)}>
                         <X size={24} />

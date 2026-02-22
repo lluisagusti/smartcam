@@ -111,8 +111,8 @@
     width: 80%;
     max-width: 320px;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.85);
-    /* Slightly transparent */
+    background-color: #ffffff;
+    /* Solid opaque white */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     /* Frosted iOS effect */
@@ -137,15 +137,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem var(--spacing-md);
-    border-bottom: 1px solid var(--color-border);
+    padding: 1.5rem var(--spacing-md);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    /* Keep solid */
+    z-index: 2;
+    /* Ensure it stays above the blur */
 }
 
-.mobile-menu-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--color-accent);
+.mobile-menu-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
+
+.mobile-menu-logo {
+    height: 32px;
+    width: auto;
+}
+
 
 .mobile-close-btn {
     background: none;
@@ -153,14 +163,18 @@
     color: var(--color-text-primary);
     cursor: pointer;
     display: flex;
-    padding: 0.25rem;
+    padding: 0.5rem;
+    z-index: 2;
 }
+
 
 .mobile-menu-scroll {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     height: 100%;
+    z-index: 1;
+    /* Keep above the background image */
 }
 
 .mobile-menu-scroll a {
