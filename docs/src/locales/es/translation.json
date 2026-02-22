@@ -23,7 +23,7 @@
     "features": {
         "header_title": "Diseñado Diferente. Por Principio.",
         "header_subtitle": "Cada decisión arquitectónica en SmartCam se tomó para proteger primero al ciudadano y entregar inteligencia municipal después. Esto es lo que nos hace fundamentalmente diferentes.",
-        "item1_title": "Tus Datos Nunca Salen de la Cámara",
+        "item1_title": "Ninguna Imagen Sale de la Cámara",
         "item1_content": "Cada fotograma de vídeo es analizado por el procesador de IA integrado en tiempo real e inmediatamente destruido. Solo metadatos anónimos — como conteos de vehículos o estado de ocupación — salen del dispositivo. No hay ningún servidor en la nube almacenando las grabaciones de tu ciudad. No hay nada que hackear ni filtrar.",
         "item2_title": "La Población es Dueña de Todo",
         "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas.",

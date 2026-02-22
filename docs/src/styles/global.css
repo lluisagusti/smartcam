@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* ZimaBlade and Shoptimizer inspired clean variables */
 :root {
     --color-bg: #f8fafc;

@@ -23,7 +23,7 @@
     "features": {
         "header_title": "Built Different. By Design.",
         "header_subtitle": "Every architectural decision in SmartCam was made to protect citizens first and deliver municipal intelligence second. Here is what makes us fundamentally different.",
-        "item1_title": "Your Data Never Leaves the Camera",
+        "item1_title": "No Image Ever Leaves the Camera",
         "item1_content": "Every frame of video is analysed by the on-board AI processor in real-time and then immediately destroyed. Only anonymous metadata — like vehicle counts or occupancy status — ever leaves the device. There is no cloud server storing your city's footage. There is nothing to hack or leak.",
         "item2_title": "The Municipality Owns Everything",
         "item2_content": "Unlike big-tech surveillance platforms, SmartCam operates on a zero data brokerage model. The council owns the hardware. The council owns the anonymous analytics. We never sell, rent, or monetize your data. Full GDPR compliance is guaranteed by architecture, not just policy.",

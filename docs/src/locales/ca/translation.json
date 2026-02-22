@@ -23,7 +23,7 @@
     "features": {
         "header_title": "Dissenyat Diferent. Per Principi.",
         "header_subtitle": "Cada decisió arquitectònica a SmartCam es va prendre per protegir primer el ciutadà i lliurar intel·ligència municipal després. Això és el que ens fa fonamentalment diferents.",
-        "item1_title": "Les Teves Dades Mai Surten de la Càmera",
+        "item1_title": "Cap Imatge Surt de la Càmera",
         "item1_content": "Cada fotograma de vídeo és analitzat pel processador d'IA integrat en temps real i immediatament destruït. Només metadades anònimes — com comptatges de vehicles o estat d'ocupació — surten del dispositiu. No hi ha cap servidor al núvol emmagatzemant les gravacions de la teva ciutat. No hi ha res a piratejar ni filtrar.",
         "item2_title": "La Població és Propietària de Tot",
         "item2_content": "A diferència de les plataformes de vigilància de les grans tecnològiques, SmartCam opera amb un model de zero comercialització de dades. L'ajuntament posseeix el maquinari. L'ajuntament posseeix les anàlisis anònimes. Mai venem, lloguem ni monetitzem les teves dades. El compliment total del GDPR està garantit per l'arquitectura, no només per polítiques.",
