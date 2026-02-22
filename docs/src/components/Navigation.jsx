@@ -16,20 +16,12 @@ const Navigation = () => {
             }
         };
 
-        const handleClickOutside = (event) => {
-            if (navRef.current && !navRef.current.contains(event.target)) {
-                setIsOpen(false);
-            }
-        };
-
         if (isOpen) {
             window.addEventListener('scroll', handleScroll, { passive: true });
-            document.addEventListener('mousedown', handleClickOutside);
         }
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
-            document.removeEventListener('mousedown', handleClickOutside);
         };
     }, [isOpen]);
 
