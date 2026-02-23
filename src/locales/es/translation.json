@@ -25,8 +25,8 @@
     "features": {
         "header_title": "Diseñado Diferente. Por Principio.",
         "header_subtitle": "Cada decisión arquitectónica en SmartCam se tomó para proteger primero al ciudadano y entregar inteligencia municipal después. Esto es lo que nos hace fundamentalmente diferentes.",
-        "item1_title": "Ninguna Imagen Sale de la Cámara",
-        "item1_content": "Cada fotograma de vídeo es analizado por el procesador de IA integrado en tiempo real e inmediatamente destruido. Solo metadatos anónimos — como conteos de vehículos o estado de ocupación — salen del dispositivo. No hay ningún servidor en la nube almacenando las grabaciones de tu ciudad. No hay nada que hackear ni filtrar.",
+        "item1_title": "Cero Centros de Datos, Cero Desperdicio",
+        "item1_content": "La vigilancia tradicional se basa en centros de datos masivos que consumen muchísima energía. SmartCam elimina esta necesidad por completo. Al procesar todo en el Edge, la cámara ES la infraestructura. Sin servidores, sin refrigeración, sin desperdicio.",
         "item2_title": "Modelo de Cero Comercialización de Datos",
         "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas. Y como no existen centros de datos, la huella de carbono de la infraestructura en la nube es cero.",
         "item3_title": "IA Autónoma, Control Humano",
@@ -112,8 +112,8 @@
     "privacy_exp": {
         "title": "Por Qué Edge AI es la Opción Ética",
         "subtitle": "Una guía no técnica sobre cómo nuestras cámaras protegen la identidad ciudadana mientras mantienen su ciudad conectada.",
-        "card1_title": "Lo que pasa en la cámara, se queda en la cámara",
-        "card1_desc": "Las cámaras de seguridad tradicionales transmiten video en bruto mostrando los rostros durante todo el día. Nuestras cámaras Edge AI son diferentes. Actúan como un ojo y un cerebro combinados. La cámara mira la calle, cuenta los coches y luego <strong>elimina el video inmediatamente</strong>. Solo envía una alerta de texto anónima (como \"3 coches en el cruce\") al servidor. Nunca se registran o transmiten rostros.",
+        "card1_title": "Ética por Diseño: Sin Reconocimiento Facial",
+        "card1_desc": "Nuestro modelo es ético porque **no soporta el reconocimiento facial ni la retención de imágenes**. La cámara procesa el evento y borra el vídeo al instante. Solo queda el metadato anónimo.",
         "card2_title": "Inmune a Filtros de Datos en la Nube",
         "card2_desc": "Todos hemos visto noticias de grandes empresas sufriendo cibertaques, exponiendo información privada. Como nuestras cámaras procesan todo localmente en el dispositivo (en el \"Edge\") y nunca envían video en bruto a un servidor central, no existe una gran base de datos valiosa para los hackers. No puedes filtrar lo que no almacenas.",
         "card3_title": "Cero Comercialización de Datos",
@@ -344,8 +344,8 @@
         "subtitle": "Nuestro enfoque Edge AI no solo protege la privacidad — elimina por completo el coste medioambiental de la videovigilancia tradicional basada en la nube.",
         "card1_title": "Cero Centros de Datos",
         "card1_desc": "La videovigilancia tradicional con IA transmite vídeo a servidores en la nube las 24 horas del día, consumiendo cantidades enormes de energía en almacenamiento, procesamiento y refrigeración. Nuestras cámaras procesan todo en el propio dispositivo y transmiten solo metadatos de texto mínimos. Sin servidores. Sin racks. Sin refrigeración. La cámara ES toda la infraestructura.",
-        "card2_title": "Instalaciones con Energía Solar",
-        "card2_desc": "Dado que nuestras unidades Edge AI consumen una potencia mínima y transmiten solo kilobytes de datos anónimos, un pequeño panel solar junto a la cámara es suficiente para alimentar todo el sistema — cámara, procesador de IA y radio. Totalmente autónomo, totalmente renovable, totalmente fuera de red.",
+        "card2_title": "Consumo Mínimo, Máxima Ecología",
+        "card2_desc": "Nuestro hardware consume menos que una bombilla LED estándar. Este consumo mínimo permite despliegues 100% solares, estableciendo un estándar verdaderamente ecológico para ciudades inteligentes.",
         "card3_title": "Alineado con el Pacto Verde Europeo",
         "card3_desc": "Con cero huella de carbono en la nube, instalaciones preparadas para energías renovables y sin dependencia de infraestructuras de datos que consumen mucha energía, SmartCam Solutions está perfectamente alineado con los objetivos del Pacto Verde Europeo y los compromisos de sostenibilidad municipal."
     }

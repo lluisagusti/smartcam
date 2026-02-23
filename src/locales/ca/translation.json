@@ -25,8 +25,8 @@
     "features": {
         "header_title": "Dissenyat Diferent. Per Principi.",
         "header_subtitle": "Cada decisió arquitectònica a SmartCam es va prendre per protegir primer el ciutadà i lliurar intel·ligència municipal després. Això és el que ens fa fonamentalment diferents.",
-        "item1_title": "Cap Imatge Surt de la Càmera",
-        "item1_content": "Cada fotograma de vídeo és analitzat pel processador d'IA integrat en temps real i immediatament destruït. Només metadades anònimes — com comptatges de vehicles o estat d'ocupació — surten del dispositiu. No hi ha cap servidor al núvol emmagatzemant les gravacions de la teva ciutat. No hi ha res a piratejar ni filtrar.",
+        "item1_title": "Zero Centres de Dades, Zero Residu",
+        "item1_content": "La vigilància tradicional es basa en centres de dades massius que consumeixen molta energia. SmartCam elimina aquesta necessitat per complet. En processar-ho tot a l'Edge, la càmera ÉS la infraestructura. Sense servidors, sense refrigeració, sense residu.",
         "item2_title": "Model de Zero Comercialització de Dades",
         "item2_content": "A diferència de les plataformes de vigilància de les grans tecnològiques, SmartCam opera amb un model de zero comercialització de dades. L'ajuntament posseeix el maquinari. L'ajuntament posseeix les anàlisis anònimes. Mai venem, lloguem ni monetitzem les teves dades. El compliment total del GDPR està garantit per l'arquitectura, no només per polítiques. I com que no hi ha centres de dades, la petjada de carboni de la infraestructura al núvol és zero.",
         "item3_title": "IA Autònoma, Control Humà",
@@ -112,8 +112,8 @@
     "privacy_exp": {
         "title": "Per Què Edge AI és l'Opció Ètica",
         "subtitle": "Una guia no tècnica sobre com les nostres càmeres protegeixen la identitat ciutadana mentre mantenen la seva ciutat connectada.",
-        "card1_title": "El que passa a la càmera, es queda a la càmera",
-        "card1_desc": "Les càmeres de seguretat tradicionals transmeten vídeo en brut mostrant els rostres durant tot el dia. Les nostres càmeres Edge AI són diferents. Actuen com un ull i un cervell combinats. La càmera mira el carrer, compta els cotxes i després <strong>elimina el vídeo immediatament</strong>. Només envia una alerta de text anònima (com \"3 cotxes a la cruïlla\") al servidor. Mai s'enregistren o transmeten rostres.",
+        "card1_title": "Ètica per Disseny: Sense Reconeixement Facial",
+        "card1_desc": "El nostre model és ètic perquè **no suporta el reconeixement facial ni la retenció d'imatges**. La càmera processa l'esdeveniment i esborra el vídeo a l'instant.",
         "card2_title": "Immune a Filtratges de Dades al Núvol",
         "card2_desc": "Tots hem vist notícies de grans empreses patint ciberatacs, exposant informació privada. Com que les nostres càmeres processen tot localment al dispositiu (a l'\"Edge\") i mai envien vídeo en brut a un servidor central, no existeix una gran base de dades valuosa per als hackers. No pots filtrar allò que no emmagatzemes.",
         "card3_title": "Zero Comercialització de Dades",
@@ -338,8 +338,8 @@
         "subtitle": "El nostre enfocament Edge AI no només protegeix la privacitat — elimina per complet el cost mediambiental de la videovigilància tradicional basada al núvol.",
         "card1_title": "Zero Centres de Dades",
         "card1_desc": "La videovigilància tradicional amb IA transmet vídeo a servidors al núvol les 24 hores del dia, consumint quantitats enormes d'energia en emmagatzematge, processament i refrigeració. Les nostres càmeres processen tot al propi dispositiu i transmeten només metadades de text mínimes. Sense servidors. Sense racks. Sense refrigeració. La càmera ÉS tota la infraestructura.",
-        "card2_title": "Instal·lacions amb Energia Solar",
-        "card2_desc": "Com que les nostres unitats Edge AI consumeixen una potència mínima i transmeten només kilobytes de dades anònimes, un petit panell solar al costat de la càmera és suficient per alimentar tot el sistema — càmera, processador d'IA i ràdio. Totalment autònom, totalment renovable, totalment fora de xarxa.",
+        "card2_title": "Consum Mínim, Màxima Ecologia",
+        "card2_desc": "El nostre maquinari consumeix menys que una bombeta LED estàndard. Aquest consum mínim permet desplegaments 100% solars, establint un estàndard realment ecològic per a ciutats intel·ligents.",
         "card3_title": "Alineat amb el Pacte Verd Europeu",
         "card3_desc": "Amb zero petjada de carboni al núvol, instal·lacions preparades per a energies renovables i sense dependència d'infraestructures de dades que consumeixen molta energia, SmartCam Solutions està perfectament alineat amb els objectius del Pacte Verd Europeu i els compromisos de sostenibilitat municipal."
     }

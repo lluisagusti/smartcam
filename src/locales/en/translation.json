@@ -25,8 +25,8 @@
     "features": {
         "header_title": "Built Different. By Design.",
         "header_subtitle": "Every architectural decision in SmartCam was made to protect citizens first and deliver municipal intelligence second. Here is what makes us fundamentally different.",
-        "item1_title": "No Image Ever Leaves the Camera",
-        "item1_content": "Every frame of video is analysed by the on-board AI processor in real-time and then immediately destroyed. Only anonymous metadata — like vehicle counts or occupancy status — ever leaves the device. There is no cloud server storing your city's footage. There is nothing to hack or leak.",
+        "item1_title": "Zero Datacenters, Zero Waste",
+        "item1_content": "Traditional AI surveillance is built on massive, power-hungry datacenters that create a heavy environmental burden. SmartCam eliminates this need entirely. By processing everything at the Edge, the camera IS the infrastructure. No servers, no cooling, no waste — just pure, sustainable intelligence.",
         "item2_title": "Zero Data Brokerage Model",
         "item2_content": "Unlike big-tech surveillance platforms, SmartCam operates on a zero data brokerage model. The council owns the hardware. The council owns the anonymous analytics. We never sell, rent, or monetize your data. Full GDPR compliance is guaranteed by architecture, not just policy. And because there are no datacenters, there is zero carbon footprint from cloud infrastructure.",
         "item3_title": "Autonomous AI, Human Override",
@@ -112,8 +112,8 @@
     "privacy_exp": {
         "title": "Why Edge AI is the Ethical Choice",
         "subtitle": "A non-technical guide to how our cameras protect citizen identities while keeping your city smart.",
-        "card1_title": "What Happens in the Camera, Stays in the Camera",
-        "card1_desc": "Traditional security cameras stream raw video showing people's faces all day long. Our \"Edge AI\" cameras are different. They act like an eye and a brain combined. The camera looks at the street, counts the cars or detects a problem, and then <strong>immediately deletes the video</strong>. It only sends an anonymous text alert (like \"3 cars in the junction\") back to the council. No faces are ever recorded or transmitted.",
+        "card1_title": "Ethics by Design: No Facial Recognition",
+        "card1_desc": "Our model is fundamentally ethical because it **does not support facial recognition or image retention**. The camera counts vehicles or detects events and then immediately deletes the video. What stays is anonymous metadata; what is gone is any risk to citizen privacy.",
         "card2_title": "Immune to Cloud Data Leaks",
         "card2_desc": "We've all seen the news about massive companies suffering data breaches, exposing the private information of millions. Because our cameras process everything locally on the device (the \"edge\") and never send raw video to a central cloud server, there is no high-value database for hackers to steal. You can't leak what you don't store.",
         "card3_title": "Zero Data Brokerage",
@@ -344,8 +344,8 @@
         "subtitle": "Our Edge AI approach doesn't just protect privacy — it eliminates the environmental cost of traditional cloud-based surveillance entirely.",
         "card1_title": "Zero Datacenters Required",
         "card1_desc": "Traditional AI surveillance streams video to power-hungry cloud servers 24/7 — consuming enormous amounts of energy for storage, processing, and cooling. Our cameras process everything on-device and transmit only tiny text-based metadata. No servers. No racks. No cooling. The camera IS the entire infrastructure.",
-        "card2_title": "Solar-Powered Deployments",
-        "card2_desc": "Because our Edge AI units consume minimal power and transmit only kilobytes of anonymous data, a small solar panel mounted beside the camera is enough to power the entire system — camera, AI processor, and radio. Fully off-grid, fully autonomous, fully renewable.",
+        "card2_title": "Minimum Consumption, Maximum Ecology",
+        "card2_desc": "Our hardware is engineered for extreme efficiency, consuming less power than a standard LED bulb. This minimum power requirement makes 100% solar deployments not just possible, but the standard for truly ecological smart cities.",
         "card3_title": "Aligned with the EU Green Deal",
         "card3_desc": "With zero cloud carbon footprint, renewable-ready installations, and no reliance on energy-intensive data infrastructure, SmartCam Solutions is perfectly aligned with EU Green Deal objectives and municipal sustainability commitments."
     }
