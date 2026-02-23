@@ -65,7 +65,7 @@ const Navigation = () => {
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}>
                 <div className="mobile-menu-header">
                     <div className="mobile-menu-brand">
-                        <img src="/logo.png" alt="SmartCam Logo" className="mobile-menu-logo" />
+                        <img src="https://raw.githubusercontent.com/jobautomation/assets/main/logo.png" alt="SmartCam Logo" className="mobile-menu-logo" />
                     </div>
                     <button className="mobile-close-btn" onClick={() => setIsOpen(false)}>
                         <X size={24} />

@@ -29,14 +29,14 @@ const TermsOfService = () => {
                 <meta property="og:url" content="https://smartcamsolutions.io/terms-of-service" />
                 <meta property="og:title" content={t('seo.terms_title')} />
                 <meta property="og:description" content={t('seo.terms_desc')} />
-                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:url" content="https://smartcamsolutions.io/terms-of-service" />
-                <meta name="twitter:title" content={t('seo.terms_title')} />
-                <meta name="twitter:description" content={t('seo.terms_desc')} />
-                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta name="twitter:url" content={window.location.href} />
+                <meta name="twitter:title" content={t('terms_page.seo_title')} />
+                <meta name="twitter:description" content={t('terms_page.seo_desc')} />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
             </Helmet>
             <Navigation />
 

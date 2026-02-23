@@ -5,7 +5,7 @@ import '../styles/HeroSlideshow.css';
 const getSlides = (t) => [
     {
         id: 1,
-        image: '/images/hero/people-counting-hero.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/people-counting-hero.jpg',
         title: t('hero.slide1_title'),
         subtitle: t('hero.slide1_subtitle'),
         cta: t('hero.slide1_cta'),
@@ -13,7 +13,7 @@ const getSlides = (t) => [
     },
     {
         id: 2,
-        image: '/images/hero/ethical-ai.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/ethical-ai.jpg',
         title: t('hero.slide2_title'),
         subtitle: t('hero.slide2_subtitle'),
         cta: t('hero.slide2_cta'),
@@ -21,7 +21,7 @@ const getSlides = (t) => [
     },
     {
         id: 3,
-        image: '/images/hero/privacy.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/privacy.jpg',
         title: t('hero.slide3_title'),
         subtitle: t('hero.slide3_subtitle'),
         cta: t('hero.slide3_cta'),

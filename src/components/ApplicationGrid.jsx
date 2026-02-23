@@ -6,32 +6,32 @@ const getApplications = (t) => [
     {
         title: t('applications.app1_title'),
         description: t('applications.app1_desc'),
-        image: '/images/applications/parking.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/parking.jpg',
     },
     {
         title: t('applications.app2_title'),
         description: t('applications.app2_desc'),
-        image: '/images/applications/traffic.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/traffic.jpg',
     },
     {
         title: t('applications.app3_title'),
         description: t('applications.app3_desc'),
-        image: '/images/applications/crowd.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/crowd.jpg',
     },
     {
         title: t('applications.app4_title'),
         description: t('applications.app4_desc'),
-        image: '/images/applications/people-counting.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/people-counting.jpg',
     },
     {
         title: t('applications.app5_title'),
         description: t('applications.app5_desc'),
-        image: '/images/applications/remote-monitoring.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/remote-monitoring.jpg',
     },
     {
         title: t('applications.app6_title'),
         description: t('applications.app6_desc'),
-        image: '/images/applications/waste-detection.jpg',
+        image: 'https://raw.githubusercontent.com/jobautomation/assets/main/waste-detection.jpg',
     }
 ];
 

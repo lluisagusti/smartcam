@@ -21,14 +21,14 @@ const PrivacyArchitecture = () => {
                 <meta property="og:url" content="https://smartcamsolutions.io/privacy-architecture" />
                 <meta property="og:title" content={t('seo.privacy_arch_title')} />
                 <meta property="og:description" content={t('seo.privacy_arch_desc')} />
-                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:url" content="https://smartcamsolutions.io/privacy-architecture" />
                 <meta name="twitter:title" content={t('seo.privacy_arch_title')} />
                 <meta name="twitter:description" content={t('seo.privacy_arch_desc')} />
-                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
             </Helmet>
             <Navigation />
 
@@ -50,7 +50,7 @@ const PrivacyArchitecture = () => {
                         <p>{t('privacy_policy_page.flow_subtitle')}</p>
                     </div>
                     <div className="pp-flow-image">
-                        <img src="/images/privacy/data-flow.jpg" alt="Privacy Data Flow" className="pp-flow-img" />
+                        <img src="https://raw.githubusercontent.com/jobautomation/assets/main/data-flow.jpg" alt="Privacy Data Flow" className="pp-flow-img" />
                     </div>
                     <div className="pp-flow-grid">
                         <div className="pp-flow-step">

@@ -79,19 +79,19 @@ const Contact = () => {
                 <meta property="og:url" content="https://smartcamsolutions.io/contact" />
                 <meta property="og:title" content={t('seo.contact_title')} />
                 <meta property="og:description" content={t('seo.contact_desc')} />
-                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:url" content="https://smartcamsolutions.io/contact" />
                 <meta name="twitter:title" content={t('seo.contact_title')} />
                 <meta name="twitter:description" content={t('seo.contact_desc')} />
-                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
             </Helmet>
             <Navigation />
             <main className="contact-page">
                 <section className="contact-hero">
-                    <div className="contact-hero-image" style={{ backgroundImage: "url('/images/contact/contact-hero.jpg')" }}></div>
+                    <div className="contact-hero-image" style={{ backgroundImage: "url('https://raw.githubusercontent.com/jobautomation/assets/main/contact-hero.jpg')" }}></div>
                     <div className="contact-hero-content">
                         <h1>{t('contact.title')}</h1>
                         <p>{t('contact.subtitle')}</p>

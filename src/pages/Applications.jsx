@@ -9,12 +9,12 @@ const Applications = () => {
     const { t, i18n } = useTranslation();
 
     const apps = [
-        { key: 'app1', image: '/images/applications/parking.jpg' },
-        { key: 'app2', image: '/images/applications/traffic.jpg' },
-        { key: 'app3', image: '/images/applications/crowd.jpg' },
-        { key: 'app4', image: '/images/applications/people-counting.jpg' },
-        { key: 'app5', image: '/images/applications/remote-monitoring.jpg' },
-        { key: 'app6', image: '/images/applications/waste-detection.jpg' },
+        { key: 'app1', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/parking.jpg' },
+        { key: 'app2', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/traffic.jpg' },
+        { key: 'app3', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/crowd.jpg' },
+        { key: 'app4', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/people-counting.jpg' },
+        { key: 'app5', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/remote-monitoring.jpg' },
+        { key: 'app6', image: 'https://raw.githubusercontent.com/jobautomation/assets/main/waste-detection.jpg' },
     ];
 
     return (
@@ -29,14 +29,14 @@ const Applications = () => {
                 <meta property="og:url" content="https://smartcamsolutions.io/applications" />
                 <meta property="og:title" content={t('seo.applications_title')} />
                 <meta property="og:description" content={t('seo.applications_desc')} />
-                <meta property="og:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:url" content="https://smartcamsolutions.io/applications" />
                 <meta name="twitter:title" content={t('seo.applications_title')} />
                 <meta name="twitter:description" content={t('seo.applications_desc')} />
-                <meta name="twitter:image" content="https://smartcamsolutions.io/images/social/open-graph.jpg" />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/jobautomation/assets/main/open-graph.jpg" />
             </Helmet>
             <Navigation />
 
