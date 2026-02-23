@@ -65,6 +65,12 @@
     margin-bottom: var(--spacing-md);
 }
 
+.footer-cta {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+}
+
 .btn-secondary {
     display: inline-block;
     padding: 0.6rem 1.25rem;

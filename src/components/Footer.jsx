@@ -23,6 +23,7 @@ const Footer = () => {
                     <div className="footer-contact">
                         <h4>{t('footer.ready_title')}</h4>
                         <p>{t('footer.ready_desc')}</p>
+                        <Link to="/contact" className="btn-primary footer-cta">{t('footer.request_demo')}</Link>
                     </div>
                 </div>
 
