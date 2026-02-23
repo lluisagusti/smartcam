@@ -37,8 +37,8 @@ const Navigation = () => {
                     {/* Desktop Menu */}
                     <div className="nav-links">
                         <Link to="/">{t('nav.home')}</Link>
-                        <Link href="/#sustainability">{t('nav.sustainability')}</Link>
-                        <Link href="/#technology">{t('nav.ethical_edge')}</Link>
+                        <Link to="/#sustainability">{t('nav.sustainability')}</Link>
+                        <Link to="/#technology">{t('nav.ethical_edge')}</Link>
                         <Link to="/applications">{t('nav.applications')}</Link>
                     </div>
 
@@ -77,8 +77,8 @@ const Navigation = () => {
                 </div>
                 <div className="mobile-menu-scroll">
                     <Link to="/" onClick={() => setIsOpen(false)}>{t('nav.home')}</Link>
-                    <Link to="/#technology" onClick={() => setIsOpen(false)}>{t('nav.ethical_edge')}</Link>
                     <Link to="/#sustainability" onClick={() => setIsOpen(false)}>{t('nav.sustainability')}</Link>
+                    <Link to="/#technology" onClick={() => setIsOpen(false)}>{t('nav.ethical_edge')}</Link>
                     <Link to="/applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</Link>
                     <Link to="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</Link>
                 </div>
