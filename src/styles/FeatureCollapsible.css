@@ -63,7 +63,7 @@
 }
 
 .collapsible-item.open .collapsible-content-wrapper {
-    max-height: 200px;
+    max-height: 300px;
     /* Arbitrary large enough height */
 }
 
