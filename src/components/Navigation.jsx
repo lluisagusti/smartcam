@@ -37,6 +37,7 @@ const Navigation = () => {
                     {/* Desktop Menu */}
                     <div className="nav-links">
                         <Link to="/">{t('nav.home')}</Link>
+                        <a href="/#sustainability">{t('nav.sustainability')}</a>
                         <a href="/#technology">{t('nav.ethical_edge')}</a>
                         <Link to="/applications">{t('nav.applications')}</Link>
                     </div>
@@ -60,9 +61,10 @@ const Navigation = () => {
                         </button>
                     </div>
                 </div>
-            </nav>
+            </nav >
             {/* iOS Style Mobile Menu Overlay */}
-            <div className={`mobile-overlay ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}></div>
+            < div className={`mobile-overlay ${isOpen ? 'open' : ''}`
+            } onClick={() => setIsOpen(false)}></div >
 
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(false)}>
                 <div className="mobile-menu-header">
@@ -75,6 +77,7 @@ const Navigation = () => {
                 </div>
                 <div className="mobile-menu-scroll">
                     <Link to="/" onClick={() => setIsOpen(false)}>{t('nav.home')}</Link>
+                    <a href="/#sustainability" onClick={() => setIsOpen(false)}>{t('nav.sustainability')}</a>
                     <a href="/#technology" onClick={() => setIsOpen(false)}>{t('nav.ethical_edge')}</a>
                     <Link to="/applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</Link>
                     <Link to="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</Link>

@@ -8,7 +8,8 @@
         "ethical_edge": "Ethical Edge",
         "privacy": "Privacy & Compliance",
         "technology": "Technology",
-        "contact": "Contact Sales"
+        "contact": "Contact Sales",
+        "sustainability": "Sustainability"
     },
     "hero": {
         "slide1_title": "Smart Cities, Built on Privacy",
@@ -18,7 +19,7 @@
         "slide2_subtitle": "No facial recognition. No cloud data brokerage. Our hardware deletes raw video instantly, processing only anonymous metadata to keep your city safe and compliant.",
         "slide2_cta": "Read Our Privacy Pledge",
         "slide3_title": "Complete Urban Intelligence",
-        "slide3_subtitle": "Alleviate traffic jams, manage smart parking, and count foot traffic accurately. One camera architecture for endless municipal applications.",
+        "slide3_subtitle": "Alleviate traffic jams, manage smart parking, and count foot traffic accurately. Solar-powered, zero-datacenter architecture for truly sustainable smart cities.",
         "slide3_cta": "See All Features"
     },
     "features": {
@@ -27,7 +28,7 @@
         "item1_title": "No Image Ever Leaves the Camera",
         "item1_content": "Every frame of video is analysed by the on-board AI processor in real-time and then immediately destroyed. Only anonymous metadata — like vehicle counts or occupancy status — ever leaves the device. There is no cloud server storing your city's footage. There is nothing to hack or leak.",
         "item2_title": "Zero Data Brokerage Model",
-        "item2_content": "Unlike big-tech surveillance platforms, SmartCam operates on a zero data brokerage model. The council owns the hardware. The council owns the anonymous analytics. We never sell, rent, or monetize your data. Full GDPR compliance is guaranteed by architecture, not just policy.",
+        "item2_content": "Unlike big-tech surveillance platforms, SmartCam operates on a zero data brokerage model. The council owns the hardware. The council owns the anonymous analytics. We never sell, rent, or monetize your data. Full GDPR compliance is guaranteed by architecture, not just policy. And because there are no datacenters, there is zero carbon footprint from cloud infrastructure.",
         "item3_title": "Autonomous AI, Human Override",
         "item3_content": "Our gimbal-equipped cameras operate autonomously, scanning and analysing environments 24/7 without human intervention. When a situation demands it, a trained operator can take full manual control of the camera, accessing a live video feed in real-time. The moment the operator releases control, the camera returns to autonomous Edge AI mode — no footage is ever stored or retained."
     },
@@ -43,7 +44,7 @@
         "app4_title": "People Counting",
         "app4_desc": "Accurately monitor foot traffic in public squares, parks, and events to gauge utilization and deploy resources efficiently without facial recognition.",
         "app5_title": "Remote Environmental Monitoring",
-        "app5_desc": "Powered by WiFi HaLow & Meshtastic, monitor remote locations without expensive 4G/5G cellular networks. Save municipal budgets using low-cost, long-range antennas.",
+        "app5_desc": "Powered by WiFi HaLow & Meshtastic, monitor remote locations without expensive 4G/5G cellular networks. Solar-powered and off-grid capable, saving municipal budgets using low-cost, long-range antennas.",
         "app6_title": "Illegal Waste Dumping Detection",
         "app6_desc": "Use advanced Edge AI vision to instantly alert municipal cleaning services when unauthorized large items are abandoned in alleys or outskirts, deterring fly-tipping."
     },
@@ -212,7 +213,7 @@
         "contact": "For any inquiries regarding our data handling or privacy architecture, please contact our engineering team."
     },
     "footer": {
-        "desc": "Providing cutting-edge, privacy-first Edge AI solutions for modern European cities and councils.",
+        "desc": "Providing sustainable, privacy-first Edge AI solutions for modern European cities. No datacenters. Solar-powered. Zero carbon footprint.",
         "solutions": "Solutions",
         "sol_parking": "Smart Parking",
         "sol_analytics": "Crowd Analytics",
@@ -325,8 +326,8 @@
         "s14_body": "The Company reserves the right to modify these Terms of Service at any time and without prior notice. Modifications shall take effect from the moment of their publication on the website. Continued use of the website by the user following the publication of the modified Terms shall imply acceptance thereof. Users are advised to periodically review these Terms of Service."
     },
     "seo": {
-        "home_title": "SmartCam Solutions | Edge AI for Smart Cities",
-        "home_desc": "Edge AI computer vision technology for smart cities. Parking management, traffic control, crowd analytics and remote monitoring with full privacy. No facial recognition. GDPR by design.",
+        "home_title": "SmartCam Solutions | Sustainable Edge AI for Smart Cities",
+        "home_desc": "Sustainable Edge AI computer vision for smart cities. No datacenters, solar-powered deployments. Parking management, traffic control, crowd analytics and remote monitoring with full privacy. GDPR by design.",
         "applications_title": "Applications | SmartCam Solutions — Edge AI for Municipalities",
         "applications_desc": "Discover our 6 Edge AI solutions for cities: smart parking, traffic control, crowd heatmaps, people counting, remote monitoring and illegal waste detection. Full privacy guaranteed.",
         "privacy_arch_title": "Privacy Architecture | SmartCam Solutions — Ethical Edge AI",
@@ -337,5 +338,15 @@
         "legal_desc": "SmartCam Solutions privacy policy. GDPR and LOPDGDD compliance. Information about personal data processing.",
         "terms_title": "Terms of Service | SmartCam Solutions",
         "terms_desc": "Terms and conditions of use for the SmartCam Solutions website. Applicable legislation and Barcelona jurisdiction."
+    },
+    "sustainability": {
+        "title": "Sustainable by Architecture",
+        "subtitle": "Our Edge AI approach doesn't just protect privacy — it eliminates the environmental cost of traditional cloud-based surveillance entirely.",
+        "card1_title": "Zero Datacenters Required",
+        "card1_desc": "Traditional AI surveillance streams video to power-hungry cloud servers 24/7 — consuming enormous amounts of energy for storage, processing, and cooling. Our cameras process everything on-device and transmit only tiny text-based metadata. No servers. No racks. No cooling. The camera IS the entire infrastructure.",
+        "card2_title": "Solar-Powered Deployments",
+        "card2_desc": "Because our Edge AI units consume minimal power and transmit only kilobytes of anonymous data, a small solar panel mounted beside the camera is enough to power the entire system — camera, AI processor, and radio. Fully off-grid, fully autonomous, fully renewable.",
+        "card3_title": "Aligned with the EU Green Deal",
+        "card3_desc": "With zero cloud carbon footprint, renewable-ready installations, and no reliance on energy-intensive data infrastructure, SmartCam Solutions is perfectly aligned with EU Green Deal objectives and municipal sustainability commitments."
     }
 }

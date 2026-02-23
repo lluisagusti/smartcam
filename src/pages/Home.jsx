@@ -6,6 +6,7 @@ import Navigation from '../components/Navigation';
 import HeroSlideshow from '../components/HeroSlideshow';
 import FeatureCollapsible from '../components/FeatureCollapsible';
 import ApplicationGrid from '../components/ApplicationGrid';
+import SustainabilitySection from '../components/SustainabilitySection';
 import PrivacyExplanation from '../components/PrivacyExplanation';
 import Footer from '../components/Footer';
 
@@ -31,6 +32,7 @@ const Home = () => {
                 <HeroSlideshow />
                 <FeatureCollapsible />
                 <ApplicationGrid />
+                <SustainabilitySection />
                 <PrivacyExplanation />
             </main>
             <Footer />

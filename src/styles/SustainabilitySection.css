@@ -1,0 +1,104 @@
+.sustainability-section {
+    background: linear-gradient(135deg, #0f2027 0%, #1a3a4a 50%, #1e4d5e 100%);
+    padding: var(--spacing-xl) var(--spacing-md);
+    position: relative;
+    overflow: hidden;
+}
+
+.sustainability-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(2, 132, 199, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.sustainability-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.sustainability-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+}
+
+.sustainability-intro h2 {
+    font-size: 2.5rem;
+    color: #e2e8f0;
+    margin-bottom: var(--spacing-sm);
+}
+
+.sustainability-subtitle {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    line-height: 1.5;
+}
+
+.sustainability-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.sustainability-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: left;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.sustainability-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.sustainability-icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    color: white;
+    margin-bottom: var(--spacing-md);
+}
+
+.sustainability-card h3 {
+    font-size: 1.25rem;
+    color: #e2e8f0;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.3;
+}
+
+.sustainability-card p {
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .sustainability-intro h2 {
+        font-size: 1.75rem;
+    }
+
+    .sustainability-subtitle {
+        font-size: 1rem;
+    }
+
+    .sustainability-grid {
+        grid-template-columns: 1fr;
+    }
+}

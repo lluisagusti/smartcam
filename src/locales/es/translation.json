@@ -8,7 +8,8 @@
         "ethical_edge": "IA Ética",
         "privacy": "Privacidad y Cumplimiento",
         "technology": "Tecnología",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "sustainability": "Sostenibilidad"
     },
     "hero": {
         "slide1_title": "Ciudades Inteligentes, Basadas en la Privacidad",
@@ -18,7 +19,7 @@
         "slide2_subtitle": "Sin reconocimiento facial. Sin comercio de datos en la nube. Nuestro hardware borra el video original al instante, procesando solo metadatos anónimos para mantener tu ciudad segura y en cumplimiento legal.",
         "slide2_cta": "Leer Nuestro Compromiso",
         "slide3_title": "Inteligencia Urbana Completa",
-        "slide3_subtitle": "Alivia atascos, gestiona el aparcamiento inteligente y cuenta el tráfico peatonal con precisión. Una única arquitectura de cámara para infinitas aplicaciones municipales.",
+        "slide3_subtitle": "Alivia atascos, gestiona el aparcamiento inteligente y cuenta el tráfico peatonal con precisión. Alimentado por energía solar, sin centros de datos, para ciudades inteligentes verdaderamente sostenibles.",
         "slide3_cta": "Ver Todas las Funciones"
     },
     "features": {
@@ -27,7 +28,7 @@
         "item1_title": "Ninguna Imagen Sale de la Cámara",
         "item1_content": "Cada fotograma de vídeo es analizado por el procesador de IA integrado en tiempo real e inmediatamente destruido. Solo metadatos anónimos — como conteos de vehículos o estado de ocupación — salen del dispositivo. No hay ningún servidor en la nube almacenando las grabaciones de tu ciudad. No hay nada que hackear ni filtrar.",
         "item2_title": "Modelo de Cero Comercialización de Datos",
-        "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas.",
+        "item2_content": "A diferencia de las plataformas de vigilancia de las grandes tecnológicas, SmartCam opera con un modelo de cero comercialización de datos. El ayuntamiento posee el hardware. El ayuntamiento posee los análisis anónimos. Nunca vendemos, alquilamos ni monetizamos tus datos. El cumplimiento total del GDPR está garantizado por la arquitectura, no solo por políticas. Y como no existen centros de datos, la huella de carbono de la infraestructura en la nube es cero.",
         "item3_title": "IA Autónoma, Control Humano",
         "item3_content": "Nuestras cámaras equipadas con gimbal operan de forma autónoma, escaneando y analizando entornos 24/7 sin intervención humana. Cuando una situación lo requiere, un operador formado puede tomar el control manual completo de la cámara, accediendo a la transmisión de vídeo en vivo en tiempo real. En el momento en que el operador libera el control, la cámara regresa al modo autónomo de Edge AI — ninguna grabación se almacena ni se retiene jamás."
     },
@@ -43,7 +44,7 @@
         "app4_title": "Conteo de Personas",
         "app4_desc": "Monitoriza con precisión el tráfico peatonal en plazas, parques y eventos para evaluar el uso y desplegar recursos de forma eficiente sin reconocimiento facial.",
         "app5_title": "Monitorización Ambiental Remota",
-        "app5_desc": "Impulsado por WiFi HaLow y Meshtastic, monitoriza áreas apartadas sin costosas redes móviles 4G/5G. Ahorra presupuestos municipales usando antenas de largo alcance y bajo coste.",
+        "app5_desc": "Impulsado por WiFi HaLow y Meshtastic, monitoriza áreas apartadas sin costosas redes móviles 4G/5G. Alimentado por energía solar y capaz de funcionar sin conexión a la red, ahorra presupuestos municipales usando antenas de largo alcance y bajo coste.",
         "app6_title": "Detección de Vertidos Ilegales",
         "app6_desc": "Usa visión Edge AI avanzada para alertar instantáneamente a los servicios de limpieza municipal cuando se abandonan objetos grandes sin autorización, disuadiendo los vertidos ilegales."
     },
@@ -212,7 +213,7 @@
         "contact": "Para cualquier consulta sobre nuestro manejo de datos o arquitectura de privacidad, comuníquese con nuestro equipo de ingeniería."
     },
     "footer": {
-        "desc": "Proporcionando soluciones Edge AI de vanguardia que priorizan la privacidad para ciudades europeas.",
+        "desc": "Proporcionando soluciones Edge AI sostenibles que priorizan la privacidad para ciudades europeas. Sin centros de datos. Energía solar. Cero huella de carbono.",
         "solutions": "Soluciones",
         "sol_parking": "Aparcamiento",
         "sol_analytics": "Analítica de Masas",
@@ -325,8 +326,8 @@
         "s14_body": "La Empresa se reserva el derecho de modificar los presentes Términos de Servicio en cualquier momento y sin previo aviso. Las modificaciones entrarán en vigor desde el momento de su publicación en el sitio web. El uso continuado del sitio web por parte del usuario tras la publicación de los Términos modificados implicará la aceptación de los mismos. Se recomienda al usuario revisar periódicamente estos Términos de Servicio."
     },
     "seo": {
-        "home_title": "SmartCam Solutions | Edge AI para Ciudades Inteligentes",
-        "home_desc": "Tecnología Edge AI de visión artificial para ciudades inteligentes. Gestión de aparcamiento, control de tráfico, analítica de multitudes y monitorización remota con privacidad total. Sin reconocimiento facial. RGPD por diseño.",
+        "home_title": "SmartCam Solutions | Edge AI Sostenible para Ciudades Inteligentes",
+        "home_desc": "Visión artificial Edge AI sostenible para ciudades inteligentes. Sin centros de datos, instalaciones con energía solar. Gestión de aparcamiento, control de tráfico, analítica de multitudes y monitorización remota con privacidad total. RGPD por diseño.",
         "applications_title": "Aplicaciones | SmartCam Solutions — Soluciones Edge AI para Municipios",
         "applications_desc": "Descubre nuestras 6 soluciones Edge AI para ciudades: aparcamiento inteligente, control de tráfico, mapas de calor, conteo de personas, monitorización remota y detección de vertidos ilegales. Privacidad total garantizada.",
         "privacy_arch_title": "Arquitectura de Privacidad | SmartCam Solutions — Edge AI Ético",
@@ -337,5 +338,15 @@
         "legal_desc": "Política de privacidad de SmartCam Solutions. Cumplimiento RGPD y LOPDGDD. Información sobre el tratamiento de datos personales.",
         "terms_title": "Términos de Servicio | SmartCam Solutions",
         "terms_desc": "Términos y condiciones de uso del sitio web de SmartCam Solutions. Legislación aplicable y jurisdicción de Barcelona."
+    },
+    "sustainability": {
+        "title": "Sostenible por Arquitectura",
+        "subtitle": "Nuestro enfoque Edge AI no solo protege la privacidad — elimina por completo el coste medioambiental de la videovigilancia tradicional basada en la nube.",
+        "card1_title": "Cero Centros de Datos",
+        "card1_desc": "La videovigilancia tradicional con IA transmite vídeo a servidores en la nube las 24 horas del día, consumiendo cantidades enormes de energía en almacenamiento, procesamiento y refrigeración. Nuestras cámaras procesan todo en el propio dispositivo y transmiten solo metadatos de texto mínimos. Sin servidores. Sin racks. Sin refrigeración. La cámara ES toda la infraestructura.",
+        "card2_title": "Instalaciones con Energía Solar",
+        "card2_desc": "Dado que nuestras unidades Edge AI consumen una potencia mínima y transmiten solo kilobytes de datos anónimos, un pequeño panel solar junto a la cámara es suficiente para alimentar todo el sistema — cámara, procesador de IA y radio. Totalmente autónomo, totalmente renovable, totalmente fuera de red.",
+        "card3_title": "Alineado con el Pacto Verde Europeo",
+        "card3_desc": "Con cero huella de carbono en la nube, instalaciones preparadas para energías renovables y sin dependencia de infraestructuras de datos que consumen mucha energía, SmartCam Solutions está perfectamente alineado con los objetivos del Pacto Verde Europeo y los compromisos de sostenibilidad municipal."
     }
 }

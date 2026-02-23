@@ -8,7 +8,8 @@
         "ethical_edge": "IA Ètica",
         "privacy": "Privacitat i Compliment",
         "technology": "Tecnologia",
-        "contact": "Contacte"
+        "contact": "Contacte",
+        "sustainability": "Sostenibilitat"
     },
     "hero": {
         "slide1_title": "Ciutats Intel·ligents, Basades en la Privacitat",
@@ -18,7 +19,7 @@
         "slide2_subtitle": "Sense reconeixement facial. Sense comerç de dades al núvol. El nostre maquinari esborra el vídeo original a l'instant, processant només metadades anònimes per mantenir la teva ciutat segura i en compliment legal.",
         "slide2_cta": "Llegir el Nostre Compromís",
         "slide3_title": "Intel·ligència Urbana Completa",
-        "slide3_subtitle": "Alleuja embussos, gestiona l'aparcament intel·ligent i compta el trànsit de vianants amb precisió. Una única arquitectura de càmera per a infinites aplicacions municipals.",
+        "slide3_subtitle": "Alleuja embussos, gestiona l'aparcament intel·ligent i compta el trànsit de vianants amb precisió. Alimentat per energia solar, sense centres de dades, per a ciutats intel·ligents veritablement sostenibles.",
         "slide3_cta": "Veure Totes les Funcions"
     },
     "features": {
@@ -27,7 +28,7 @@
         "item1_title": "Cap Imatge Surt de la Càmera",
         "item1_content": "Cada fotograma de vídeo és analitzat pel processador d'IA integrat en temps real i immediatament destruït. Només metadades anònimes — com comptatges de vehicles o estat d'ocupació — surten del dispositiu. No hi ha cap servidor al núvol emmagatzemant les gravacions de la teva ciutat. No hi ha res a piratejar ni filtrar.",
         "item2_title": "Model de Zero Comercialització de Dades",
-        "item2_content": "A diferència de les plataformes de vigilància de les grans tecnològiques, SmartCam opera amb un model de zero comercialització de dades. L'ajuntament posseeix el maquinari. L'ajuntament posseeix les anàlisis anònimes. Mai venem, lloguem ni monetitzem les teves dades. El compliment total del GDPR està garantit per l'arquitectura, no només per polítiques.",
+        "item2_content": "A diferència de les plataformes de vigilància de les grans tecnològiques, SmartCam opera amb un model de zero comercialització de dades. L'ajuntament posseeix el maquinari. L'ajuntament posseeix les anàlisis anònimes. Mai venem, lloguem ni monetitzem les teves dades. El compliment total del GDPR està garantit per l'arquitectura, no només per polítiques. I com que no hi ha centres de dades, la petjada de carboni de la infraestructura al núvol és zero.",
         "item3_title": "IA Autònoma, Control Humà",
         "item3_content": "Les nostres càmeres equipades amb gimbal operen de forma autònoma, escanejant i analitzant entorns 24/7 sense intervenció humana. Quan una situació ho requereix, un operador format pot prendre el control manual complet de la càmera, accedint a la transmissió de vídeo en viu en temps real. En el moment en què l'operador allibera el control, la càmera torna al mode autònom d'Edge AI — cap gravació s'emmagatzema ni es reté mai."
     },
@@ -43,7 +44,7 @@
         "app4_title": "Recompte de Persones",
         "app4_desc": "Monitoritza amb precisió el trànsit de vianants en places, parcs i esdeveniments per avaluar l'ús i desplegar recursos de forma eficient sense reconeixement facial.",
         "app5_title": "Monitorització Ambiental Remota",
-        "app5_desc": "Impulsat per WiFi HaLow i Meshtastic, monitoritza àrees allunyades sense costoses xarxes mòbils 4G/5G. Estalvia pressupostos municipals usant antenes de llarg abast i baix cost.",
+        "app5_desc": "Impulsat per WiFi HaLow i Meshtastic, monitoritza àrees allunyades sense costoses xarxes mòbils 4G/5G. Alimentat per energia solar i capaç de funcionar fora de xarxa, estalvia pressupostos municipals usant antenes de llarg abast i baix cost.",
         "app6_title": "Detecció d'Abocaments Il·legals",
         "app6_desc": "Usa visió Edge AI avançada per alertar instantàniament els serveis de neteja municipal quan s'abandonen objectes grans sense autorització, dissuadint els abocaments il·legals."
     },
@@ -212,7 +213,7 @@
         "contact": "Per a qualsevol consulta sobre el nostre maneig de dades o arquitectura de privacitat, comuniqueu-vos amb el nostre equip d'enginyeria."
     },
     "footer": {
-        "desc": "Proporcionant solucions Edge AI d'avantguarda que prioritzen la privacitat per a ciutats europees.",
+        "desc": "Proporcionant solucions Edge AI sostenibles que prioritzen la privacitat per a ciutats europees. Sense centres de dades. Energia solar. Zero petjada de carboni.",
         "solutions": "Solucions",
         "sol_parking": "Aparcamiento",
         "sol_analytics": "Analítica de Masses",
@@ -319,8 +320,8 @@
         "s14_body": "L'Empresa es reserva el dret de modificar els presents Termes de Servei en qualsevol moment i sense avís previ. Les modificacions entraran en vigor des del moment de la seva publicació al lloc web. L'ús continuat del lloc web per part de l'usuari després de la publicació dels Termes modificats implicarà l'acceptació dels mateixos. Es recomana a l'usuari revisar periòdicament aquests Termes de Servei."
     },
     "seo": {
-        "home_title": "SmartCam Solutions | Edge AI per a Ciutats Intel·ligents",
-        "home_desc": "Tecnologia Edge AI de visió artificial per a ciutats intel·ligents. Gestió d'aparcament, control de trànsit, analítica de multituds i monitorització remota amb privacitat total. Sense reconeixement facial. RGPD per disseny.",
+        "home_title": "SmartCam Solutions | Edge AI Sostenible per a Ciutats Intel·ligents",
+        "home_desc": "Visió artificial Edge AI sostenible per a ciutats intel·ligents. Sense centres de dades, instal·lacions amb energia solar. Gestió d'aparcament, control de trànsit, analítica de multituds i monitorització remota amb privacitat total. RGPD per disseny.",
         "applications_title": "Aplicacions | SmartCam Solutions — Solucions Edge AI per a Municipis",
         "applications_desc": "Descobreix les nostres 6 solucions Edge AI per a ciutats: aparcament intel·ligent, control de trànsit, mapes de calor, comptatge de persones, monitorització remota i detecció d'abocaments il·legals. Privacitat total garantida.",
         "privacy_arch_title": "Arquitectura de Privacitat | SmartCam Solutions — Edge AI Ètic",
@@ -331,5 +332,15 @@
         "legal_desc": "Política de privacitat de SmartCam Solutions. Compliment RGPD i LOPDGDD. Informació sobre el tractament de dades personals.",
         "terms_title": "Termes de Servei | SmartCam Solutions",
         "terms_desc": "Termes i condicions d'ús del lloc web de SmartCam Solutions. Legislació aplicable i jurisdicció de Barcelona."
+    },
+    "sustainability": {
+        "title": "Sostenible per Arquitectura",
+        "subtitle": "El nostre enfocament Edge AI no només protegeix la privacitat — elimina per complet el cost mediambiental de la videovigilància tradicional basada al núvol.",
+        "card1_title": "Zero Centres de Dades",
+        "card1_desc": "La videovigilància tradicional amb IA transmet vídeo a servidors al núvol les 24 hores del dia, consumint quantitats enormes d'energia en emmagatzematge, processament i refrigeració. Les nostres càmeres processen tot al propi dispositiu i transmeten només metadades de text mínimes. Sense servidors. Sense racks. Sense refrigeració. La càmera ÉS tota la infraestructura.",
+        "card2_title": "Instal·lacions amb Energia Solar",
+        "card2_desc": "Com que les nostres unitats Edge AI consumeixen una potència mínima i transmeten només kilobytes de dades anònimes, un petit panell solar al costat de la càmera és suficient per alimentar tot el sistema — càmera, processador d'IA i ràdio. Totalment autònom, totalment renovable, totalment fora de xarxa.",
+        "card3_title": "Alineat amb el Pacte Verd Europeu",
+        "card3_desc": "Amb zero petjada de carboni al núvol, instal·lacions preparades per a energies renovables i sense dependència d'infraestructures de dades que consumeixen molta energia, SmartCam Solutions està perfectament alineat amb els objectius del Pacte Verd Europeu i els compromisos de sostenibilitat municipal."
     }
 }
