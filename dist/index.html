@@ -4,6 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // https://github.com/rafgraph/spa-github-pages
+        (function (l) {
+            if (l.search[1] === 'p') {
+                var decoded = l.search.slice(1).split('&').map(function (s) {
+                    return s.replace(/~and~/g, '&')
+                }).filter(function (s) {
+                    return s.slice(0, 2) === 'p='
+                })[0].slice(2);
+                if (decoded !== l.pathname) {
+                    window.history.replaceState(null, null,
+                        l.pathname.slice(0, l.pathname.lastIndexOf('/')) + decoded + (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash
+                    );
+                }
+            }
+        }(window.location))
+    </script>
 
     <!-- Primary SEO -->
     <title>SmartCam Solutions | Edge AI para Ciudades Inteligentes</title>
@@ -26,9 +44,9 @@
 
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="180x180" href="./assets/smartcam180-DxRw7a5V.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/smartcam180-DxRw7a5V.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/smartcam512-D_txFW2_.png" />
+    <link rel="icon" type="image/png" sizes="180x180" href="./images/favicon-logo/smartcam180.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon-logo/smartcam180.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./images/favicon-logo/smartcam512.png" />
 
     <!-- Theme colour -->
     <meta name="theme-color" content="#0f172a" />
@@ -75,7 +93,7 @@
         }
     }
     </script>
-  <script type="module" crossorigin src="./assets/index-XmFhCBcD.js"></script>
+  <script type="module" crossorigin src="./assets/index-IQpFAm0k.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-BgFWdQUk.css">
 </head>
 

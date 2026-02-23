@@ -91,7 +91,7 @@ const Contact = () => {
             <Navigation />
             <main className="contact-page">
                 <section className="contact-hero">
-                    <div className="contact-hero-image" style={{ backgroundImage: "url('./images/contact/contact-hero.jpg')" }}></div>
+                    <div className="contact-hero-image" style={{ backgroundImage: "url('/images/contact/contact-hero.jpg')" }}></div>
                     <div className="contact-hero-content">
                         <h1>{t('contact.title')}</h1>
                         <p>{t('contact.subtitle')}</p>

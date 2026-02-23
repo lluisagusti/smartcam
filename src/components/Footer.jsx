@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -10,9 +11,9 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-grid">
                     <div className="footer-brand">
-                        <a href="/" className="footer-logo">
+                        <Link to="/" className="footer-logo">
                             <strong>{t('nav.title_strong')}</strong>{t('nav.title_span')}
-                        </a>
+                        </Link>
                         <p className="footer-desc">
                             {t('footer.desc')}
                         </p>
@@ -28,8 +29,8 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <p>&copy; {new Date().getFullYear()} {t('footer.rights')}</p>
                     <div className="legal-links">
-                        <a href="/legal-privacy">{t('footer.privacy_policy')}</a>
-                        <a href="/terms-of-service">{t('footer.terms')}</a>
+                        <Link to="/legal-privacy">{t('footer.privacy_policy')}</Link>
+                        <Link to="/terms-of-service">{t('footer.terms')}</Link>
                     </div>
                 </div>
             </div>

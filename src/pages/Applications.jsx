@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/Applications.css';
@@ -9,12 +9,12 @@ const Applications = () => {
     const { t, i18n } = useTranslation();
 
     const apps = [
-        { key: 'app1', image: './images/applications/parking.jpg' },
-        { key: 'app2', image: './images/applications/traffic.jpg' },
-        { key: 'app3', image: './images/applications/crowd.jpg' },
-        { key: 'app4', image: './images/applications/people-counting.jpg' },
-        { key: 'app5', image: './images/applications/remote-monitoring.jpg' },
-        { key: 'app6', image: './images/applications/waste-detection.jpg' },
+        { key: 'app1', image: '/images/applications/parking.jpg' },
+        { key: 'app2', image: '/images/applications/traffic.jpg' },
+        { key: 'app3', image: '/images/applications/crowd.jpg' },
+        { key: 'app4', image: '/images/applications/people-counting.jpg' },
+        { key: 'app5', image: '/images/applications/remote-monitoring.jpg' },
+        { key: 'app6', image: '/images/applications/waste-detection.jpg' },
     ];
 
     return (
@@ -67,7 +67,7 @@ const Applications = () => {
                 <section className="applications-cta">
                     <h2>{t('applications_page.cta_title')}</h2>
                     <p>{t('applications_page.cta_subtitle')}</p>
-                    <a href="/contact" className="cta-button">{t('applications_page.cta_button')}</a>
+                    <Link to="/contact" className="cta-button">{t('applications_page.cta_button')}</Link>
                 </section>
             </main>
 

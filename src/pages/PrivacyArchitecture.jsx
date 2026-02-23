@@ -49,8 +49,8 @@ const PrivacyArchitecture = () => {
                         <h2>{t('privacy_policy_page.flow_title')}</h2>
                         <p>{t('privacy_policy_page.flow_subtitle')}</p>
                     </div>
-                    <div className="pp-flow-visual">
-                        <img src="./images/privacy/data-flow.jpg" alt="Privacy Data Flow" className="pp-flow-img" />
+                    <div className="pp-flow-image">
+                        <img src="/images/privacy/data-flow.jpg" alt="Privacy Data Flow" className="pp-flow-img" />
                     </div>
                     <div className="pp-flow-grid">
                         <div className="pp-flow-step">

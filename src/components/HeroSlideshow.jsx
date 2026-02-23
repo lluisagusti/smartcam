@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import '../styles/HeroSlideshow.css';
 
 // We'll map the translations inside the component because we need the `t` function
 const getSlides = (t) => [
     {
         id: 1,
-        image: './images/hero/people-counting-hero.jpg',
+        image: '/images/hero/people-counting-hero.jpg',
         title: t('hero.slide1_title'),
         subtitle: t('hero.slide1_subtitle'),
         cta: t('hero.slide1_cta'),
@@ -14,7 +13,7 @@ const getSlides = (t) => [
     },
     {
         id: 2,
-        image: './images/hero/ethical-ai.jpg',
+        image: '/images/hero/ethical-ai.jpg',
         title: t('hero.slide2_title'),
         subtitle: t('hero.slide2_subtitle'),
         cta: t('hero.slide2_cta'),
@@ -22,7 +21,7 @@ const getSlides = (t) => [
     },
     {
         id: 3,
-        image: './images/hero/privacy.jpg',
+        image: '/images/hero/privacy.jpg',
         title: t('hero.slide3_title'),
         subtitle: t('hero.slide3_subtitle'),
         cta: t('hero.slide3_cta'),
@@ -54,7 +53,7 @@ const HeroSlideshow = () => {
                         <div className="slide-content">
                             <h1>{slide.title}</h1>
                             <p>{slide.subtitle}</p>
-                            <a href={slide.link} className="btn-primary hero-btn">{slide.cta}</a>
+                            <Link to={slide.link} className="btn-primary hero-btn">{slide.cta}</Link>
                         </div>
                     </div>
                 </div>

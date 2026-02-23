@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import LanguageSelector from './LanguageSelector';
 import '../styles/Navigation.css';
@@ -29,20 +28,20 @@ const Navigation = () => {
         <>
             <nav className="navbar" ref={navRef}>
                 <div className="nav-container">
-                    <a href="/" className="nav-logo">
+                    <Link to="/" className="nav-logo">
                         <strong>Smart</strong>Cam
-                    </a>
+                    </Link>
 
                     {/* Desktop Menu */}
                     <div className="nav-links">
-                        <a href="/">{t('nav.home')}</a>
+                        <Link to="/">{t('nav.home')}</Link>
                         <a href="/#technology">{t('nav.ethical_edge')}</a>
-                        <a href="/applications">{t('nav.applications')}</a>
+                        <Link to="/applications">{t('nav.applications')}</Link>
                     </div>
 
                     <div className="nav-actions">
                         <LanguageSelector />
-                        <a href="/contact" className="btn-primary">{t('nav.contact')}</a>
+                        <Link to="/contact" className="btn-primary">{t('nav.contact')}</Link>
                     </div>
 
                     {/* Mobile Controls (Menu Toggle & Language) */}
@@ -73,10 +72,10 @@ const Navigation = () => {
                     </button>
                 </div>
                 <div className="mobile-menu-scroll">
-                    <a href="/" onClick={() => setIsOpen(false)}>{t('nav.home')}</a>
+                    <Link to="/" onClick={() => setIsOpen(false)}>{t('nav.home')}</Link>
                     <a href="/#technology" onClick={() => setIsOpen(false)}>{t('nav.ethical_edge')}</a>
-                    <a href="/applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</a>
-                    <a href="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</a>
+                    <Link to="/applications" onClick={() => setIsOpen(false)}>{t('nav.applications')}</Link>
+                    <Link to="/contact" className="mobile-btn" onClick={() => setIsOpen(false)}>{t('nav.contact')}</Link>
                 </div>
             </div>
         </>
